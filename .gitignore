@@ -1,4 +1,54 @@
+# altium designer
 __Previews
 Project Logs for*
 Project Outputs for*
 History
+
+# vivado
+## log files
+*.log
+*.jou
+*.rpt
+*.vdi
+
+## bitstream
+*.bit
+*.bin
+*.mcs
+*.svf
+*.image
+
+## netlist
+*.edf
+*.edif
+*.vn
+*.vm
+
+## SDF
+*.sdf
+
+## sim dump
+*.vcd
+*.saif
+*.tcf
+*.wdb
+
+## others
+unisims
+
+## C-files
+*.elf
+*.a
+*.sa
+*.so
+*.lib
+
+## dirs
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+
+# binaries
+*.exe
