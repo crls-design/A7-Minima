@@ -1,0 +1,3 @@
+[submodule "vivado/Ben-8-Bit"]
+	path = vivado/Ben-8-Bit
+	url = https://github.com/CharlesSurianto/Ben-8-Bit.git
