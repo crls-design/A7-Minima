@@ -45,6 +45,7 @@ unisims
 
 ## dirs
 *.cache/
+*.gen/
 *.hw/
 *.ip_user_files/
 *.runs/
