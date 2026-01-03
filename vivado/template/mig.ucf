@@ -1,0 +1,142 @@
+NET   "ddr3_addr[0]"                           LOC = "G4"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_addr[10]"                          LOC = "G3"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_addr[11]"                          LOC = "D2"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_addr[12]"                          LOC = "C5"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_addr[13]"                          LOC = "C1"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_addr[14]"                          LOC = "D3"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_addr[1]"                           LOC = "B6"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_addr[2]"                           LOC = "E6"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_addr[3]"                           LOC = "A4"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_addr[4]"                           LOC = "F1"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_addr[5]"                           LOC = "B4"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_addr[6]"                           LOC = "G2"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_addr[7]"                           LOC = "E5"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_addr[8]"                           LOC = "G1"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_addr[9]"                           LOC = "C2"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_ba[0]"                             LOC = "B3"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_ba[1]"                             LOC = "E2"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_ba[2]"                             LOC = "F3"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_cas_n"                             LOC = "D4"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_ck_n[0]"                           LOC = "A1"    |     IOSTANDARD = DIFF_SSTL15          ;
+
+NET   "ddr3_ck_p[0]"                           LOC = "B1"    |     IOSTANDARD = DIFF_SSTL15          ;
+
+NET   "ddr3_cke[0]"                            LOC = "E1"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_cs_n[0]"                           LOC = "A3"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dm[0]"                             LOC = "L3"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dm[1]"                             LOC = "N4"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dm[2]"                             LOC = "V4"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dm[3]"                             LOC = "R7"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[0]"                             LOC = "M1"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[10]"                            LOC = "N5"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[11]"                            LOC = "P4"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[12]"                            LOC = "P5"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[13]"                            LOC = "R1"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[14]"                            LOC = "M6"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[15]"                            LOC = "T1"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[16]"                            LOC = "V5"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[17]"                            LOC = "U3"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[18]"                            LOC = "R3"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[19]"                            LOC = "U4"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[1]"                             LOC = "L4"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[20]"                            LOC = "T3"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[21]"                            LOC = "U1"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[22]"                            LOC = "T4"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[23]"                            LOC = "V1"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[24]"                            LOC = "U6"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[25]"                            LOC = "R6"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[26]"                            LOC = "T6"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[27]"                            LOC = "T8"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[28]"                            LOC = "V6"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[29]"                            LOC = "V7"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[2]"                             LOC = "L1"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[30]"                            LOC = "R5"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[31]"                            LOC = "U7"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[3]"                             LOC = "L5"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[4]"                             LOC = "M3"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[5]"                             LOC = "K5"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[6]"                             LOC = "M2"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[7]"                             LOC = "K3"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[8]"                             LOC = "M4"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dq[9]"                             LOC = "P3"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_dqs_n[0]"                          LOC = "N1"    |     IOSTANDARD = DIFF_SSTL15          ;
+
+NET   "ddr3_dqs_n[1]"                          LOC = "R2"    |     IOSTANDARD = DIFF_SSTL15          ;
+
+NET   "ddr3_dqs_n[2]"                          LOC = "V2"    |     IOSTANDARD = DIFF_SSTL15          ;
+
+NET   "ddr3_dqs_n[3]"                          LOC = "V9"    |     IOSTANDARD = DIFF_SSTL15          ;
+
+NET   "ddr3_dqs_p[0]"                          LOC = "N2"    |     IOSTANDARD = DIFF_SSTL15          ;
+
+NET   "ddr3_dqs_p[1]"                          LOC = "P2"    |     IOSTANDARD = DIFF_SSTL15          ;
+
+NET   "ddr3_dqs_p[2]"                          LOC = "U2"    |     IOSTANDARD = DIFF_SSTL15          ;
+
+NET   "ddr3_dqs_p[3]"                          LOC = "U9"    |     IOSTANDARD = DIFF_SSTL15          ;
+
+NET   "ddr3_odt[0]"                            LOC = "B2"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_ras_n"                             LOC = "E3"    |     IOSTANDARD = SSTL15               ;
+
+NET   "ddr3_reset_n"                           LOC = "D5"    |     IOSTANDARD = LVCMOS15             ;
+
+NET   "ddr3_we_n"                              LOC = "C4"    |     IOSTANDARD = SSTL15               ;
+
