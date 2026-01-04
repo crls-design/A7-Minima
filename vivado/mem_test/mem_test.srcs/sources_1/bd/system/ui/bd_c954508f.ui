@@ -52,7 +52,7 @@ pagesize -pg 1 -db -bbox -sgen -110 0 1760 930
    "Color Coded_ScaleFactor":"0.657005",
    "Color Coded_TopLeft":"-105,-37",
    "Default View_ScaleFactor":"0.519916",
-   "Default View_TopLeft":"-356,4",
+   "Default View_TopLeft":"-54,129",
    "Display-PortTypeClock":"true",
    "Display-PortTypeOthers":"true",
    "Display-PortTypeReset":"true",
@@ -155,7 +155,7 @@ pagesize -pg 1 -db -bbox -sgen -110 0 1810 1010
 ",
    "Reduced Jogs_ScaleFactor":"0.494024",
    "Reduced Jogs_TopLeft":"-389,2",
-   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0 threadsafe
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
 #  -string -flagsOSRD
 preplace port GPIO -pg 1 -lvl 5 -x 1560 -y 650 -defaultsOSRD
 preplace port UART -pg 1 -lvl 5 -x 1560 -y 480 -defaultsOSRD
@@ -164,7 +164,7 @@ preplace port port-id_CLK50M -pg 1 -lvl 0 -x 0 -y 890 -defaultsOSRD
 preplace port port-id_RST -pg 1 -lvl 0 -x 0 -y 870 -defaultsOSRD
 preplace port port-id_init_calib_complete_0 -pg 1 -lvl 5 -x 1560 -y 900 -defaultsOSRD
 preplace inst mig_7series_0 -pg 1 -lvl 4 -x 1390 -y 860 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 55 59 58 57 56 61 60 54} -defaultsOSRD
-preplace inst microblaze_0 -pg 1 -lvl 2 -x 640 -y 230 -swap {121 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 83 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 25 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 45 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 0 122 123 124 125 126 127 128 129 130 131 132} -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 2 -x 650 -y 230 -swap {121 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 83 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 25 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 45 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 0 122 123 124 125 126 127 128 129 130 131 132} -defaultsOSRD
 preplace inst axi_uartlite_0 -pg 1 -lvl 4 -x 1390 -y 490 -defaultsOSRD
 preplace inst axi_gpio_0 -pg 1 -lvl 4 -x 1390 -y 650 -defaultsOSRD
 preplace inst clk_wiz_0 -pg 1 -lvl 3 -x 1080 -y 880 -swap {0 1 3 4 2} -defaultsOSRD
@@ -178,27 +178,27 @@ preplace netloc clk_in1_0_1 1 0 3 NJ 890 NJ 890 NJ
 preplace netloc clk_wiz_0_clk_out1 1 3 1 N 880
 preplace netloc clk_wiz_0_clk_out2 1 3 1 N 900
 preplace netloc clk_wiz_0_locked 1 3 1 N 860
-preplace netloc mdm_1_debug_sys_rst 1 0 2 20 280 380
-preplace netloc microblaze_0_Clk 1 0 5 40 340 390 340 920 470 1240 570 1530
+preplace netloc mdm_1_debug_sys_rst 1 0 2 20 140 380
+preplace netloc microblaze_0_Clk 1 0 5 30 330 410 330 920 480 1230 570 1530
 preplace netloc mig_7series_0_init_calib_complete 1 4 1 NJ 900
 preplace netloc mig_7series_0_mmcm_locked 1 0 5 40 760 NJ 760 NJ 760 NJ 760 1520
-preplace netloc mig_7series_0_ui_clk_sync_rst 1 0 5 30 330 NJ 330 910J 170 NJ 170 1540
-preplace netloc rst_clk_wiz_0_100M_bus_struct_reset 1 1 2 NJ 420 900
+preplace netloc mig_7series_0_ui_clk_sync_rst 1 0 5 40 340 NJ 340 890J 470 1230J 410 1540
+preplace netloc rst_clk_wiz_0_100M_bus_struct_reset 1 1 2 390J 120 N
 preplace netloc rst_clk_wiz_0_100M_mb_reset 1 1 1 400 260n
-preplace netloc rst_clk_wiz_0_100M_peripheral_aresetn 1 1 3 NJ 440 930 480 1230
-preplace netloc S00_AXI_1 1 2 1 880 270n
+preplace netloc rst_clk_wiz_0_100M_peripheral_aresetn 1 1 3 NJ 440 930 770 1260
+preplace netloc S00_AXI_1 1 2 1 900 270n
 preplace netloc S00_AXI_2 1 2 1 N 230
 preplace netloc axi_gpio_0_GPIO 1 4 1 NJ 650
 preplace netloc axi_interconnect_0_M00_AXI 1 3 1 1250 470n
 preplace netloc axi_interconnect_0_M01_AXI 1 3 1 N 630
-preplace netloc axi_interconnect_1_M00_AXI 1 3 1 1260 320n
+preplace netloc axi_interconnect_1_M00_AXI 1 3 1 1240 320n
 preplace netloc axi_uartlite_0_UART 1 4 1 NJ 480
 preplace netloc microblaze_0_M_AXI_IC 1 2 1 N 250
 preplace netloc microblaze_0_debug 1 1 1 N 200
-preplace netloc microblaze_0_dlmb_1 1 2 1 880 60n
-preplace netloc microblaze_0_ilmb_1 1 2 1 890 80n
+preplace netloc microblaze_0_dlmb_1 1 2 1 890 60n
+preplace netloc microblaze_0_ilmb_1 1 2 1 900 80n
 preplace netloc mig_7series_0_DDR3 1 4 1 NJ 820
-levelinfo -pg 1 0 210 640 1080 1390 1560
+levelinfo -pg 1 0 210 650 1080 1390 1560
 pagesize -pg 1 -db -bbox -sgen -110 0 1750 960
 "
 }
