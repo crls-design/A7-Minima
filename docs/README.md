@@ -10,4 +10,4 @@ See [`template`](../vivado/template/) folder for the `.ucf` and `.xdc` files, as
 
 - [LED Demo](../vivado/led_demo)
 - [DDR3 Memory Test](../vivado/mem_test/)
-- [Ben Eater's Breadboard Computer](../vivado/Ben-8-Bit/)
+- [Ben Eater's Breadboard Computer](https://github.com/CharlesSurianto/Ben-8-Bit/)
