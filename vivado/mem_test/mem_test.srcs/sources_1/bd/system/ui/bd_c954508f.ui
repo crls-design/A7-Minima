@@ -1,0 +1,205 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Addressing View_Layers":"/clk_in1_0_1:false|/clk_wiz_0_clk_out2:false|/rst_clk_wiz_0_100M_peripheral_aresetn:false|/rst_clk_wiz_0_100M_mb_reset:false|/clk_wiz_0_clk_out1:false|/mdm_1_debug_sys_rst:false|/RST_1:false|/microblaze_0_Clk:false|/mig_7series_0_ui_clk_sync_rst:false|/rst_clk_wiz_0_100M_bus_struct_reset:false|",
+   "Addressing View_ScaleFactor":"1.0",
+   "Addressing View_TopLeft":"19,-105",
+   "Color Coded_ExpandedHierarchyInLayout":"",
+   "Color Coded_Layout":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port GPIO -pg 1 -lvl 5 -x 1570 -y 490 -defaultsOSRD
+preplace port UART -pg 1 -lvl 5 -x 1570 -y 640 -defaultsOSRD
+preplace port DDR3_0 -pg 1 -lvl 5 -x 1570 -y 790 -defaultsOSRD
+preplace port port-id_CLK50M -pg 1 -lvl 0 -x 0 -y 870 -defaultsOSRD
+preplace port port-id_RST -pg 1 -lvl 0 -x 0 -y 780 -defaultsOSRD
+preplace port port-id_init_calib_complete_0 -pg 1 -lvl 5 -x 1570 -y 870 -defaultsOSRD
+preplace inst mig_7series_0 -pg 1 -lvl 4 -x 1400 -y 830 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 55 59 58 57 56 61 60 54} -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 2 -x 640 -y 230 -swap {121 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 83 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 25 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 45 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 0 122 123 124 125 126 127 128 129 130 131 132} -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 4 -x 1400 -y 650 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 4 -x 1400 -y 490 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 3 -x 1080 -y 860 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 3 -x 1080 -y 90 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 1 -x 210 -y 210 -defaultsOSRD
+preplace inst rst_mig_0_100M -pg 1 -lvl 1 -x 210 -y 440 -swap {0 1 3 2 4 5 6 8 9 7} -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 3 -x 1080 -y 620 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 38 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 20 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 60 57 61 58 62 59 63} -defaultsOSRD
+preplace inst axi_interconnect_1 -pg 1 -lvl 3 -x 1080 -y 320 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 118 115 119 116 120 117 121} -defaultsOSRD
+preplace netloc microblaze_0_Clk 1 0 5 40 340 390 340 920 470 1250 570 1540
+preplace netloc rst_clk_wiz_0_100M_mb_reset 1 1 1 400 260n
+preplace netloc rst_clk_wiz_0_100M_bus_struct_reset 1 1 2 NJ 420 900
+preplace netloc mdm_1_debug_sys_rst 1 0 2 20 280 380
+preplace netloc mig_7series_0_mmcm_locked 1 0 5 40 770 NJ 770 NJ 770 1260J 730 1530
+preplace netloc clk_wiz_0_clk_out1 1 3 1 N 850
+preplace netloc clk_wiz_0_clk_out2 1 3 1 N 870
+preplace netloc clk_in1_0_1 1 0 3 NJ 870 NJ 870 NJ
+preplace netloc RST_1 1 0 4 NJ 780 NJ 780 880 760 1230
+preplace netloc mig_7series_0_ui_clk_sync_rst 1 0 5 30 330 NJ 330 910J 170 NJ 170 1550
+preplace netloc rst_clk_wiz_0_100M_peripheral_aresetn 1 1 3 NJ 440 930 480 1240
+preplace netloc mig_7series_0_init_calib_complete 1 4 1 NJ 870
+preplace netloc microblaze_0_dlmb_1 1 2 1 880 60n
+preplace netloc microblaze_0_ilmb_1 1 2 1 890 80n
+preplace netloc microblaze_0_debug 1 1 1 N 200
+preplace netloc axi_interconnect_0_M00_AXI 1 3 1 N 630
+preplace netloc axi_interconnect_0_M01_AXI 1 3 1 1260 470n
+preplace netloc S00_AXI_1 1 2 1 880 270n
+preplace netloc axi_interconnect_1_M00_AXI 1 3 1 1270 320n
+preplace netloc S00_AXI_2 1 2 1 N 230
+preplace netloc microblaze_0_M_AXI_IC 1 2 1 N 250
+preplace netloc axi_gpio_0_GPIO 1 4 1 NJ 490
+preplace netloc axi_uartlite_0_UART 1 4 1 NJ 640
+preplace netloc mig_7series_0_DDR3 1 4 1 NJ 790
+levelinfo -pg 1 0 210 640 1080 1400 1570
+pagesize -pg 1 -db -bbox -sgen -110 0 1760 930
+",
+   "Color Coded_ScaleFactor":"0.657005",
+   "Color Coded_TopLeft":"-105,-37",
+   "Default View_ScaleFactor":"0.519916",
+   "Default View_TopLeft":"-356,4",
+   "Display-PortTypeClock":"true",
+   "Display-PortTypeOthers":"true",
+   "Display-PortTypeReset":"true",
+   "ExpandedHierarchyInLayout":"",
+   "No Loops_ExpandedHierarchyInLayout":"",
+   "No Loops_Layers":"/clk_in1_0_1:true|/clk_wiz_0_clk_out2:true|/rst_clk_wiz_0_100M_peripheral_aresetn:true|/rst_clk_wiz_0_100M_mb_reset:true|/clk_wiz_0_clk_out1:true|/mdm_1_debug_sys_rst:true|/RST_1:true|/microblaze_0_Clk:true|/mig_7series_0_ui_clk_sync_rst:true|/rst_clk_wiz_0_100M_bus_struct_reset:true|",
+   "No Loops_Layout":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port GPIO -pg 1 -lvl 6 -x 1760 -y 80 -defaultsOSRD
+preplace port UART -pg 1 -lvl 6 -x 1760 -y 220 -defaultsOSRD
+preplace port DDR3_0 -pg 1 -lvl 6 -x 1760 -y 360 -defaultsOSRD
+preplace port port-id_CLK50M -pg 1 -lvl 0 -x 0 -y 720 -defaultsOSRD
+preplace port port-id_RST -pg 1 -lvl 0 -x 0 -y 680 -defaultsOSRD
+preplace port port-id_init_calib_complete_0 -pg 1 -lvl 6 -x 1760 -y 380 -defaultsOSRD
+preplace inst mig_7series_0 -pg 1 -lvl 5 -x 1600 -y 340 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 58 59 55 54 57 61 60 56} -defaultsOSRD -pinDir DDR3 right -pinY DDR3 20R -pinDir S_AXI left -pinY S_AXI 20L -pinDir sys_rst left -pinY sys_rst 300L -pinDir clk_ref_i left -pinY clk_ref_i 360L -pinDir ui_clk_sync_rst left -pinY ui_clk_sync_rst 240L -pinDir ui_clk left -pinY ui_clk 40L -pinDir mmcm_locked left -pinY mmcm_locked 280L -pinDir sys_clk_i left -pinY sys_clk_i 380L -pinDir init_calib_complete right -pinY init_calib_complete 40R -pinDir aresetn left -pinY aresetn 260L
+preplace inst microblaze_0 -pg 1 -lvl 3 -x 880 -y 40 -swap {0 1 2 3 16 5 6 7 8 9 10 11 12 13 14 15 121 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 4 122 123 124 125 126 127 128 129 130 131 132} -defaultsOSRD -pinDir INTERRUPT left -pinY INTERRUPT 20L -pinDir DLMB left -pinY DLMB 400L -pinDir ILMB left -pinY ILMB 420L -pinDir M_AXI_DP right -pinY M_AXI_DP 20R -pinDir M_AXI_DC right -pinY M_AXI_DC 300R -pinDir M_AXI_IC right -pinY M_AXI_IC 320R -pinDir DEBUG left -pinY DEBUG 260L -pinDir Clk left -pinY Clk 440L -pinDir Reset left -pinY Reset 460L
+preplace inst axi_uartlite_0 -pg 1 -lvl 5 -x 1600 -y 200 -defaultsOSRD -pinDir S_AXI left -pinY S_AXI 20L -pinDir UART right -pinY UART 20R -pinDir s_axi_aclk left -pinY s_axi_aclk 40L -pinDir s_axi_aresetn left -pinY s_axi_aresetn 60L -pinDir interrupt right -pinY interrupt 40R
+preplace inst axi_gpio_0 -pg 1 -lvl 5 -x 1600 -y 60 -defaultsOSRD -pinDir S_AXI left -pinY S_AXI 20L -pinDir GPIO right -pinY GPIO 20R -pinDir s_axi_aclk left -pinY s_axi_aclk 40L -pinDir s_axi_aresetn left -pinY s_axi_aresetn 60L
+preplace inst clk_wiz_0 -pg 1 -lvl 4 -x 1290 -y 680 -defaultsOSRD -pinDir reset left -pinY reset 20L -pinDir clk_in1 left -pinY clk_in1 40L -pinDir clk_out1 right -pinY clk_out1 20R -pinDir clk_out2 right -pinY clk_out2 40R
+preplace inst microblaze_0_local_memory -pg 1 -lvl 2 -x 460 -y 420 -defaultsOSRD -pinDir DLMB right -pinY DLMB 20R -pinDir ILMB right -pinY ILMB 40R -pinDir LMB_Clk left -pinY LMB_Clk 20L -pinDir SYS_Rst left -pinY SYS_Rst 40L
+preplace inst mdm_1 -pg 1 -lvl 2 -x 460 -y 280 -defaultsOSRD -pinDir MBDEBUG_0 right -pinY MBDEBUG_0 20R -pinDir Debug_SYS_Rst left -pinY Debug_SYS_Rst 20L
+preplace inst rst_mig_0_100M -pg 1 -lvl 1 -x 170 -y 280 -swap {1 4 2 0 9 3 7 5 6 8} -defaultsOSRD -pinDir slowest_sync_clk right -pinY slowest_sync_clk 40R -pinDir ext_reset_in right -pinY ext_reset_in 100R -pinDir aux_reset_in left -pinY aux_reset_in 20L -pinDir mb_debug_sys_rst right -pinY mb_debug_sys_rst 20R -pinDir dcm_locked right -pinY dcm_locked 340R -pinDir mb_reset right -pinY mb_reset 80R -pinBusDir bus_struct_reset right -pinBusY bus_struct_reset 180R -pinBusDir peripheral_reset right -pinBusY peripheral_reset 120R -pinBusDir interconnect_aresetn right -pinBusY interconnect_aresetn 140R -pinBusDir peripheral_aresetn right -pinBusY peripheral_aresetn 320R
+preplace inst axi_interconnect_0 -pg 1 -lvl 4 -x 1290 -y 40 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 38 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 20 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 60 57 61 58 62 59 63} -defaultsOSRD -pinDir S00_AXI left -pinY S00_AXI 20L -pinDir M00_AXI right -pinY M00_AXI 180R -pinDir M01_AXI right -pinY M01_AXI 40R -pinDir ACLK left -pinY ACLK 40L -pinDir ARESETN left -pinY ARESETN 120L -pinDir S00_ACLK left -pinY S00_ACLK 60L -pinDir S00_ARESETN left -pinY S00_ARESETN 140L -pinDir M00_ACLK left -pinY M00_ACLK 80L -pinDir M00_ARESETN left -pinY M00_ARESETN 160L -pinDir M01_ACLK left -pinY M01_ACLK 100L -pinDir M01_ARESETN left -pinY M01_ARESETN 180L
+preplace inst axi_interconnect_1 -pg 1 -lvl 4 -x 1290 -y 320 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 118 115 119 116 120 117 121} -defaultsOSRD -pinDir S00_AXI left -pinY S00_AXI 20L -pinDir M00_AXI right -pinY M00_AXI 40R -pinDir S01_AXI left -pinY S01_AXI 40L -pinDir ACLK left -pinY ACLK 60L -pinDir ARESETN left -pinY ARESETN 140L -pinDir S00_ACLK left -pinY S00_ACLK 80L -pinDir S00_ARESETN left -pinY S00_ARESETN 160L -pinDir M00_ACLK left -pinY M00_ACLK 100L -pinDir M00_ARESETN left -pinY M00_ARESETN 180L -pinDir S01_ACLK left -pinY S01_ACLK 120L -pinDir S01_ARESETN left -pinY S01_ARESETN 200L
+preplace netloc microblaze_0_Clk 1 1 4 320 240 640 560 1120 280 1440
+preplace netloc rst_clk_wiz_0_100M_mb_reset 1 1 2 NJ 360 620
+preplace netloc rst_clk_wiz_0_100M_bus_struct_reset 1 1 1 N 460
+preplace netloc mdm_1_debug_sys_rst 1 1 1 NJ 300
+preplace netloc mig_7series_0_mmcm_locked 1 1 4 NJ 620 NJ 620 NJ 620 N
+preplace netloc clk_wiz_0_clk_out1 1 4 1 N 700
+preplace netloc clk_wiz_0_clk_out2 1 4 1 N 720
+preplace netloc clk_in1_0_1 1 0 4 NJ 720 NJ 720 NJ 720 NJ
+preplace netloc RST_1 1 0 5 NJ 680 NJ 680 NJ 680 1120 640 N
+preplace netloc mig_7series_0_ui_clk_sync_rst 1 1 4 NJ 380 600J 580 NJ 580 N
+preplace netloc rst_clk_wiz_0_100M_peripheral_aresetn 1 1 4 NJ 600 NJ 600 1140 600 1460
+preplace netloc mig_7series_0_init_calib_complete 1 5 1 NJ 380
+preplace netloc microblaze_0_dlmb_1 1 2 1 N 440
+preplace netloc microblaze_0_ilmb_1 1 2 1 N 460
+preplace netloc microblaze_0_debug 1 2 1 N 300
+preplace netloc axi_interconnect_0_M00_AXI 1 4 1 N 220
+preplace netloc axi_interconnect_0_M01_AXI 1 4 1 N 80
+preplace netloc S00_AXI_1 1 3 1 N 60
+preplace netloc axi_interconnect_1_M00_AXI 1 4 1 N 360
+preplace netloc S00_AXI_2 1 3 1 N 340
+preplace netloc microblaze_0_M_AXI_IC 1 3 1 N 360
+preplace netloc axi_gpio_0_GPIO 1 5 1 NJ 80
+preplace netloc axi_uartlite_0_UART 1 5 1 NJ 220
+preplace netloc mig_7series_0_DDR3 1 5 1 NJ 360
+levelinfo -pg 1 0 170 460 880 1290 1600 1760
+pagesize -pg 1 -db -bbox -sgen -110 0 1950 780
+",
+   "No Loops_ScaleFactor":"0.596201",
+   "No Loops_TopLeft":"-106,-163",
+   "Reduced Jogs_ExpandedHierarchyInLayout":"",
+   "Reduced Jogs_Layout":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0 threadsafe
+#  -string -flagsOSRD
+preplace port GPIO -pg 1 -lvl 5 -x 1620 -y 550 -defaultsOSRD
+preplace port UART -pg 1 -lvl 5 -x 1620 -y 710 -defaultsOSRD
+preplace port DDR3 -pg 1 -lvl 5 -x 1620 -y 870 -defaultsOSRD
+preplace port port-id_CLK50M -pg 1 -lvl 0 -x 0 -y 930 -defaultsOSRD
+preplace port port-id_RST -pg 1 -lvl 0 -x 0 -y 910 -defaultsOSRD
+preplace port port-id_init_calib_complete_0 -pg 1 -lvl 5 -x 1620 -y 950 -defaultsOSRD
+preplace inst mig_7series_0 -pg 1 -lvl 4 -x 1430 -y 850 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 55 59 58 57 56 61 60 54} -defaultsOSRD -pinY DDR3 20R -pinY S_AXI 20L -pinY sys_rst 60L -pinY clk_ref_i 80L -pinY ui_clk_sync_rst 80R -pinY ui_clk 60R -pinY mmcm_locked 40R -pinY sys_clk_i 100L -pinY init_calib_complete 100R -pinY aresetn 40L
+preplace inst microblaze_0 -pg 1 -lvl 2 -x 660 -y 40 -swap {121 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 83 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 25 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 45 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 0 122 123 124 125 126 127 128 129 130 131 132} -defaultsOSRD -pinY INTERRUPT 350L -pinY DLMB 20R -pinY ILMB 40R -pinY M_AXI_DP 510R -pinY M_AXI_DC 190R -pinY M_AXI_IC 210R -pinY DEBUG 330L -pinY Clk 450L -pinY Reset 510L
+preplace inst axi_uartlite_0 -pg 1 -lvl 4 -x 1430 -y 690 -defaultsOSRD -pinY S_AXI 20L -pinY UART 20R -pinY s_axi_aclk 40L -pinY s_axi_aresetn 60L -pinY interrupt 40R
+preplace inst axi_gpio_0 -pg 1 -lvl 4 -x 1430 -y 530 -defaultsOSRD -pinY S_AXI 20L -pinY GPIO 20R -pinY s_axi_aclk 40L -pinY s_axi_aresetn 60L
+preplace inst clk_wiz_0 -pg 1 -lvl 3 -x 1110 -y 890 -swap {0 1 3 4 2} -defaultsOSRD -pinY reset 20L -pinY clk_in1 40L -pinY clk_out1 40R -pinY clk_out2 60R -pinY locked 20R
+preplace inst microblaze_0_local_memory -pg 1 -lvl 3 -x 1110 -y 40 -defaultsOSRD -pinY DLMB 20L -pinY ILMB 40L -pinY LMB_Clk 60L -pinY SYS_Rst 80L
+preplace inst mdm_1 -pg 1 -lvl 1 -x 230 -y 350 -defaultsOSRD -pinY MBDEBUG_0 20R -pinY Debug_SYS_Rst 40R
+preplace inst sys_rst -pg 1 -lvl 1 -x 230 -y 530 -swap {0 1 3 2 4 5 6 8 9 7} -defaultsOSRD -pinY slowest_sync_clk 20L -pinY ext_reset_in 40L -pinY aux_reset_in 80L -pinY mb_debug_sys_rst 60L -pinY dcm_locked 220L -pinY mb_reset 20R -pinBusY bus_struct_reset 120R -pinBusY peripheral_reset 200R -pinBusY interconnect_aresetn 220R -pinBusY peripheral_aresetn 140R
+preplace inst peripheral_interconnect -pg 1 -lvl 3 -x 1110 -y 530 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 38 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 20 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 60 57 61 58 62 59 63} -defaultsOSRD -pinY S00_AXI 20L -pinY M00_AXI 180R -pinY M01_AXI 20R -pinY ACLK 40L -pinY ARESETN 120L -pinY S00_ACLK 60L -pinY S00_ARESETN 140L -pinY M00_ACLK 80L -pinY M00_ARESETN 160L -pinY M01_ACLK 100L -pinY M01_ARESETN 180L
+preplace inst memory_interconnect -pg 1 -lvl 3 -x 1110 -y 210 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 118 115 119 116 120 117 121} -defaultsOSRD -pinY S00_AXI 20L -pinY M00_AXI 200R -pinY S01_AXI 40L -pinY ACLK 60L -pinY ARESETN 140L -pinY S00_ACLK 80L -pinY S00_ARESETN 160L -pinY M00_ACLK 100L -pinY M00_ARESETN 180L -pinY S01_ACLK 120L -pinY S01_ARESETN 200L
+preplace netloc RST_1 1 0 3 NJ 910 NJ 910 NJ
+preplace netloc clk_in1_0_1 1 0 3 NJ 930 NJ 930 NJ
+preplace netloc clk_wiz_0_clk_out1 1 3 1 N 930
+preplace netloc clk_wiz_0_clk_out2 1 3 1 N 950
+preplace netloc clk_wiz_0_locked 1 3 1 N 910
+preplace netloc mdm_1_debug_sys_rst 1 0 2 20 450 400
+preplace netloc microblaze_0_Clk 1 0 5 60 490 420 630 920 470 1280 650 1580
+preplace netloc mig_7series_0_init_calib_complete 1 4 1 NJ 950
+preplace netloc mig_7series_0_mmcm_locked 1 0 5 60 810 NJ 810 NJ 810 NJ 810 1560
+preplace netloc mig_7series_0_ui_clk_sync_rst 1 0 5 40 470 400J 610 900J 170 NJ 170 1600
+preplace netloc rst_clk_wiz_0_100M_bus_struct_reset 1 1 2 NJ 650 940
+preplace netloc rst_clk_wiz_0_100M_mb_reset 1 1 1 N 550
+preplace netloc rst_clk_wiz_0_100M_peripheral_aresetn 1 1 3 NJ 670 960 490 1260
+preplace netloc S00_AXI_1 1 2 1 N 550
+preplace netloc S00_AXI_2 1 2 1 N 230
+preplace netloc axi_gpio_0_GPIO 1 4 1 NJ 550
+preplace netloc axi_interconnect_0_M00_AXI 1 3 1 N 710
+preplace netloc axi_interconnect_0_M01_AXI 1 3 1 N 550
+preplace netloc axi_interconnect_1_M00_AXI 1 3 1 1300 410n
+preplace netloc axi_uartlite_0_UART 1 4 1 NJ 710
+preplace netloc microblaze_0_M_AXI_IC 1 2 1 N 250
+preplace netloc microblaze_0_debug 1 1 1 N 370
+preplace netloc microblaze_0_dlmb_1 1 2 1 N 60
+preplace netloc microblaze_0_ilmb_1 1 2 1 N 80
+preplace netloc mig_7series_0_DDR3 1 4 1 NJ 870
+levelinfo -pg 1 0 230 660 1110 1430 1620
+pagesize -pg 1 -db -bbox -sgen -110 0 1810 1010
+",
+   "Reduced Jogs_ScaleFactor":"0.494024",
+   "Reduced Jogs_TopLeft":"-389,2",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0 threadsafe
+#  -string -flagsOSRD
+preplace port GPIO -pg 1 -lvl 5 -x 1560 -y 650 -defaultsOSRD
+preplace port UART -pg 1 -lvl 5 -x 1560 -y 480 -defaultsOSRD
+preplace port DDR3 -pg 1 -lvl 5 -x 1560 -y 820 -defaultsOSRD
+preplace port port-id_CLK50M -pg 1 -lvl 0 -x 0 -y 890 -defaultsOSRD
+preplace port port-id_RST -pg 1 -lvl 0 -x 0 -y 870 -defaultsOSRD
+preplace port port-id_init_calib_complete_0 -pg 1 -lvl 5 -x 1560 -y 900 -defaultsOSRD
+preplace inst mig_7series_0 -pg 1 -lvl 4 -x 1390 -y 860 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 55 59 58 57 56 61 60 54} -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 2 -x 640 -y 230 -swap {121 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 83 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 25 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 45 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 0 122 123 124 125 126 127 128 129 130 131 132} -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 4 -x 1390 -y 490 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 4 -x 1390 -y 650 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 3 -x 1080 -y 880 -swap {0 1 3 4 2} -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 3 -x 1080 -y 90 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 1 -x 210 -y 210 -defaultsOSRD
+preplace inst sys_rst -pg 1 -lvl 1 -x 210 -y 440 -swap {0 1 3 2 4 5 6 8 9 7} -defaultsOSRD
+preplace inst peripheral_interconnect -pg 1 -lvl 3 -x 1080 -y 620 -defaultsOSRD
+preplace inst memory_interconnect -pg 1 -lvl 3 -x 1080 -y 320 -defaultsOSRD
+preplace netloc RST_1 1 0 3 NJ 870 NJ 870 NJ
+preplace netloc clk_in1_0_1 1 0 3 NJ 890 NJ 890 NJ
+preplace netloc clk_wiz_0_clk_out1 1 3 1 N 880
+preplace netloc clk_wiz_0_clk_out2 1 3 1 N 900
+preplace netloc clk_wiz_0_locked 1 3 1 N 860
+preplace netloc mdm_1_debug_sys_rst 1 0 2 20 280 380
+preplace netloc microblaze_0_Clk 1 0 5 40 340 390 340 920 470 1240 570 1530
+preplace netloc mig_7series_0_init_calib_complete 1 4 1 NJ 900
+preplace netloc mig_7series_0_mmcm_locked 1 0 5 40 760 NJ 760 NJ 760 NJ 760 1520
+preplace netloc mig_7series_0_ui_clk_sync_rst 1 0 5 30 330 NJ 330 910J 170 NJ 170 1540
+preplace netloc rst_clk_wiz_0_100M_bus_struct_reset 1 1 2 NJ 420 900
+preplace netloc rst_clk_wiz_0_100M_mb_reset 1 1 1 400 260n
+preplace netloc rst_clk_wiz_0_100M_peripheral_aresetn 1 1 3 NJ 440 930 480 1230
+preplace netloc S00_AXI_1 1 2 1 880 270n
+preplace netloc S00_AXI_2 1 2 1 N 230
+preplace netloc axi_gpio_0_GPIO 1 4 1 NJ 650
+preplace netloc axi_interconnect_0_M00_AXI 1 3 1 1250 470n
+preplace netloc axi_interconnect_0_M01_AXI 1 3 1 N 630
+preplace netloc axi_interconnect_1_M00_AXI 1 3 1 1260 320n
+preplace netloc axi_uartlite_0_UART 1 4 1 NJ 480
+preplace netloc microblaze_0_M_AXI_IC 1 2 1 N 250
+preplace netloc microblaze_0_debug 1 1 1 N 200
+preplace netloc microblaze_0_dlmb_1 1 2 1 880 60n
+preplace netloc microblaze_0_ilmb_1 1 2 1 890 80n
+preplace netloc mig_7series_0_DDR3 1 4 1 NJ 820
+levelinfo -pg 1 0 210 640 1080 1390 1560
+pagesize -pg 1 -db -bbox -sgen -110 0 1750 960
+"
+}
+0
