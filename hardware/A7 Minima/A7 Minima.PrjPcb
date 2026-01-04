@@ -1,0 +1,2189 @@
+﻿[Design]
+Version=1.0
+HierarchyMode=2
+ChannelRoomNamingStyle=0
+ReleasesFolder=
+ChannelDesignatorFormatString=$Component_$RoomName
+ChannelRoomLevelSeperator=_
+OpenOutputs=1
+ArchiveProject=0
+TimestampOutput=0
+SeparateFolders=0
+TemplateLocationPath=
+PinSwapBy_Netlabel=1
+PinSwapBy_Pin=1
+AllowPortNetNames=1
+AllowSheetEntryNetNames=1
+AppendSheetNumberToLocalNets=1
+NetlistSinglePinNets=0
+DefaultConfiguration=Sources
+UserID=0xFFFFFFFF
+DefaultPcbProtel=1
+DefaultPcbPcad=0
+ReorderDocumentsOnCompile=1
+NameNetsHierarchically=1
+PowerPortNamesTakePriority=1
+AutoSheetNumbering=1
+AutoCrossReferences=1
+NewIndexingOfSheetSymbols=1
+PushECOToAnnotationFile=1
+DItemRevisionGUID=
+ReportSuppressedErrorsInMessages=0
+FSMCodingStyle=eFMSDropDownList_OneProcess
+FSMEncodingStyle=eFMSDropDownList_OneHot
+IsProjectConflictPreventionWarningsEnabled=0
+ConstraintManagerFlow=0
+IsVirtualBomDocumentRemoved=0
+OutputPath=
+LogFolderPath=
+ManagedProjectGUID=
+IncludeDesignInRelease=0
+CrossRefSheetStyle=1
+CrossRefLocationStyle=1
+CrossRefPorts=0
+CrossRefCrossSheets=1
+CrossRefSheetEntries=0
+CrossRefFollowFromMainSettings=1
+
+[Preferences]
+PrefsVaultGUID=
+PrefsRevisionGUID=
+
+[Document1]
+DocumentPath=1 top.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=101
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=0
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ORLCZCJS
+
+[Document2]
+DocumentPath=2 power.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=201
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SMLTXQCB
+
+[Document3]
+DocumentPath=3 buck.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=301
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=2
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MHUCSQRR
+
+[Document4]
+DocumentPath=4 jtag uart.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=401
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=3
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=TUKAMHBI
+
+[Document5]
+DocumentPath=5-1 fgpa power.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=501
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=4
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=DEEBCEXP
+
+[Document6]
+DocumentPath=5-2 fpga config.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=501
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=5
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ERJFCETS
+
+[Document7]
+DocumentPath=5-3 fpga bank 14-16.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=501
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=6
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ENUDWHKH
+
+[Document8]
+DocumentPath=5-4 fpga bank 34-35.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=501
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=INYEYZNV
+
+[Document9]
+DocumentPath=6 clock.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=601
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=8
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=EXBPJLDV
+
+[Document10]
+DocumentPath=7 ddr3 memory.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=701
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=9
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HAOMAQAM
+
+[Document11]
+DocumentPath=8 ddr3 termination.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=801
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=10
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=WDQNUMAZ
+
+[Document12]
+DocumentPath=9 onboard.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=901
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=11
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=TNGHVBLV
+
+[Document13]
+DocumentPath=10 header.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1001
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=12
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YQVCLORZ
+
+[Document14]
+DocumentPath=main.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=AKEGBXPX
+
+[Document15]
+DocumentPath=panel.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HVJDRPOE
+
+[Document16]
+DocumentPath=A7 Minima.BomDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document17]
+DocumentPath=7 ddr3 memory.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document18]
+DocumentPath=4 jtag uart.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document19]
+DocumentPath=5-3 fpga bank 14-16.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document20]
+DocumentPath=5-2 fpga config.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document21]
+DocumentPath=Export.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document22]
+DocumentPath=8 ddr3 termination.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document23]
+DocumentPath=5-4 fpga bank 34-35.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document24]
+DocumentPath=9 onboard.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Configuration1]
+Name=Sources
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=0
+ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
+ConfigurationType=Source
+
+[OutputGroup1]
+Name=Netlist Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=CadnetixNetlist
+OutputName1=Cadnetix Netlist
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+OutputType2=CalayNetlist
+OutputName2=Calay Netlist
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=EDIF
+OutputName3=EDIF for PCB
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
+OutputType4=EESofNetlist
+OutputName4=EESof Netlist
+OutputDocumentPath4=
+OutputVariantName4=
+OutputDefault4=0
+OutputType5=IntergraphNetlist
+OutputName5=Intergraph Netlist
+OutputDocumentPath5=
+OutputVariantName5=
+OutputDefault5=0
+OutputType6=MentorBoardStationNetlist
+OutputName6=Mentor BoardStation Netlist
+OutputDocumentPath6=
+OutputVariantName6=
+OutputDefault6=0
+OutputType7=MultiWire
+OutputName7=MultiWire
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+OutputType8=OrCadPCB2Netlist
+OutputName8=Orcad/PCB2 Netlist
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+OutputType9=PADSNetlist
+OutputName9=PADS ASCII Netlist
+OutputDocumentPath9=
+OutputVariantName9=
+OutputDefault9=0
+OutputType10=Pcad
+OutputName10=Pcad for PCB
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=PCADNetlist
+OutputName11=PCAD Netlist
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=PCADnltNetlist
+OutputName12=PCADnlt Netlist
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=Protel2Netlist
+OutputName13=Protel2 Netlist
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=ProtelNetlist
+OutputName14=Protel
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=RacalNetlist
+OutputName15=Racal Netlist
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=RINFNetlist
+OutputName16=RINF Netlist
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SciCardsNetlist
+OutputName17=SciCards Netlist
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=TangoNetlist
+OutputName18=Tango Netlist
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
+OutputType19=TelesisNetlist
+OutputName19=Telesis Netlist
+OutputDocumentPath19=
+OutputVariantName19=
+OutputDefault19=0
+OutputType20=WireListNetlist
+OutputName20=WireList Netlist
+OutputDocumentPath20=
+OutputVariantName20=
+OutputDefault20=0
+OutputType21=XSpiceNetlist
+OutputName21=Mixed Sim Netlist
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
+
+[OutputGroup2]
+Name=Simulator Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+
+[OutputGroup3]
+Name=Documentation Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Composite
+OutputName1=Composite Drawing
+OutputDocumentPath1=
+OutputVariantName1=[No Variations]
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType2=Harness Layout Drawing Print
+OutputName2=Harness Layout Drawing Prints
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType3=Harness Wiring Diagram Print
+OutputName3=Harness Wiring Diagram Prints
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType4=PCB 3D Print
+OutputName4=PCB 3D Print
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType5=PCB 3D Video
+OutputName5=PCB 3D Video
+OutputDocumentPath5=
+OutputVariantName5=[No Variations]
+OutputDefault5=0
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType6=PCB Print
+OutputName6=PCB Prints
+OutputDocumentPath6=
+OutputVariantName6=[No Variations]
+OutputDefault6=0
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType7=PCBDrawing
+OutputName7=Draftsman
+OutputDocumentPath7=
+OutputVariantName7=[No Variations]
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=PCBLIB Print
+OutputName8=PCBLIB Prints
+OutputDocumentPath8=
+OutputVariantName8=[No Variations]
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType9=PDF3D
+OutputName9=PDF3D
+OutputDocumentPath9=
+OutputVariantName9=[No Variations]
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType10=PDF3D MBA
+OutputName10=PDF3D MBA
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=Report Print
+OutputName11=Report Prints
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType12=Schematic Print
+OutputName12=Schematic Prints
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType13=SimView Print
+OutputName13=SimView Prints
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+
+[OutputGroup4]
+Name=Assembly Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Assembly
+OutputName1=Assembly Drawings
+OutputDocumentPath1=
+OutputVariantName1=[No Variations]
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType2=Pick Place
+OutputName2=Generates pick and place files
+OutputDocumentPath2=
+OutputVariantName2=[No Variations]
+OutputDefault2=0
+OutputType3=Test Points For Assembly
+OutputName3=Test Point Report
+OutputDocumentPath3=
+OutputVariantName3=[No Variations]
+OutputDefault3=0
+OutputType4=Wire Bonding Table
+OutputName4=Wire Bonding Table Report
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
+
+[OutputGroup5]
+Name=Fabrication Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Board Stack Report
+OutputName1=Report Board Stack
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType2=CompositeDrill
+OutputName2=Composite Drill Drawing
+OutputDocumentPath2=
+OutputVariantName2=[No Variations]
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType3=Drill
+OutputName3=Drill Drawing/Guides
+OutputDocumentPath3=
+OutputVariantName3=[No Variations]
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType4=Final
+OutputName4=Final Artwork Prints
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType5=Gerber
+OutputName5=Gerber Files
+OutputDocumentPath5=
+OutputVariantName5=[No Variations]
+OutputDefault5=0
+OutputType6=Gerber X2
+OutputName6=Gerber X2 Files
+OutputDocumentPath6=
+OutputVariantName6=[No Variations]
+OutputDefault6=0
+OutputType7=IPC2581
+OutputName7=IPC-2581 Files
+OutputDocumentPath7=
+OutputVariantName7=[No Variations]
+OutputDefault7=0
+OutputType8=Mask
+OutputName8=Solder/Paste Mask Prints
+OutputDocumentPath8=
+OutputVariantName8=[No Variations]
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType9=NC Drill
+OutputName9=NC Drill Files
+OutputDocumentPath9=
+OutputVariantName9=
+OutputDefault9=0
+OutputType10=ODB
+OutputName10=ODB++ Files
+OutputDocumentPath10=
+OutputVariantName10=[No Variations]
+OutputDefault10=0
+OutputType11=Plane
+OutputName11=Power-Plane Prints
+OutputDocumentPath11=
+OutputVariantName11=[No Variations]
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType12=Test Points
+OutputName12=Test Point Report
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+
+[OutputGroup6]
+Name=Report Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=BOM_PartType
+OutputName1=Bill of Materials
+OutputDocumentPath1=
+OutputVariantName1=[No Variations]
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType2=BOM_ReportCompare
+OutputName2=BOM Compare
+OutputDocumentPath2=
+OutputVariantName2=[No Variations]
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType3=ComponentCrossReference
+OutputName3=Component Cross Reference Report
+OutputDocumentPath3=
+OutputVariantName3=[No Variations]
+OutputDefault3=0
+OutputType4=Export Comments
+OutputName4=Export Comments
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType5=Project History
+OutputName5=Project History
+OutputDocumentPath5=
+OutputVariantName5=[No Variations]
+OutputDefault5=0
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType6=ReportHierarchy
+OutputName6=Report Project Hierarchy
+OutputDocumentPath6=
+OutputVariantName6=[No Variations]
+OutputDefault6=0
+OutputType7=Script
+OutputName7=Script Output
+OutputDocumentPath7=
+OutputVariantName7=[No Variations]
+OutputDefault7=0
+OutputType8=SimpleBOM
+OutputName8=Simple BOM
+OutputDocumentPath8=
+OutputVariantName8=[No Variations]
+OutputDefault8=0
+OutputType9=SinglePinNetReporter
+OutputName9=Report Single Pin Nets
+OutputDocumentPath9=
+OutputVariantName9=[No Variations]
+OutputDefault9=0
+OutputType10=BOM_ReportManufacturing
+OutputName10=Manufacturing Data
+OutputDocumentPath10=
+OutputVariantName10=[No Variations]
+OutputDefault10=0
+
+[OutputGroup7]
+Name=Other Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Text Print
+OutputName1=Text Print
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+
+[OutputGroup8]
+Name=Validation Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=BOM_Violations
+OutputName1=BOM Checks Report
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+OutputType2=Component states check
+OutputName2=Server's components states check
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=Configuration compliance
+OutputName3=Environment configuration compliance check
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
+OutputType4=Design Rules Check
+OutputName4=Design Rules Check
+OutputDocumentPath4=
+OutputVariantName4=
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType5=Differences Report
+OutputName5=Differences Report
+OutputDocumentPath5=
+OutputVariantName5=
+OutputDefault5=0
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType6=Electrical Rules Check
+OutputName6=Electrical Rules Check
+OutputDocumentPath6=
+OutputVariantName6=
+OutputDefault6=0
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType7=Footprint Comparison Report
+OutputName7=Footprint Comparison Report
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+
+[OutputGroup9]
+Name=Export Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AutoCAD dwg/dxf PCB
+OutputName1=AutoCAD dwg/dxf File PCB
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+OutputType2=AutoCAD dwg/dxf Schematic
+OutputName2=AutoCAD dwg/dxf File Schematic
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=ExportIDF
+OutputName3=Export IDF
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
+OutputType4=ExportPARASOLID
+OutputName4=Export PARASOLID
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
+OutputType5=ExportSTEP
+OutputName5=Export STEP
+OutputDocumentPath5=
+OutputVariantName5=[No Variations]
+OutputDefault5=0
+OutputType6=ExportVRML
+OutputName6=Export VRML
+OutputDocumentPath6=
+OutputVariantName6=[No Variations]
+OutputDefault6=0
+OutputType7=MBAExportPARASOLID
+OutputName7=Export PARASOLID
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+OutputType8=MBAExportSTEP
+OutputName8=Export STEP
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+OutputType9=Save As/Export PCB
+OutputName9=Save As/Export PCB
+OutputDocumentPath9=
+OutputVariantName9=
+OutputDefault9=0
+OutputType10=Save As/Export Schematic
+OutputName10=Save As/Export Schematic
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=Specctra Design PCB
+OutputName11=Specctra Design PCB
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=Web ReviewOutputName
+OutputName12=Web Review Data
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+
+[OutputGroup10]
+Name=PostProcess Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Copy Files
+OutputName1=Copy Files
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+
+[Modification Levels]
+Type1=1
+Type2=1
+Type3=1
+Type4=1
+Type5=1
+Type6=1
+Type7=1
+Type8=1
+Type9=1
+Type10=1
+Type11=1
+Type12=1
+Type13=1
+Type14=1
+Type15=1
+Type16=1
+Type17=1
+Type18=1
+Type19=1
+Type20=1
+Type21=1
+Type22=1
+Type23=1
+Type24=1
+Type25=1
+Type26=1
+Type27=1
+Type28=1
+Type29=1
+Type30=1
+Type31=1
+Type32=1
+Type33=1
+Type34=1
+Type35=1
+Type36=1
+Type37=1
+Type38=1
+Type39=1
+Type40=1
+Type41=1
+Type42=1
+Type43=1
+Type44=1
+Type45=1
+Type46=1
+Type47=1
+Type48=1
+Type49=1
+Type50=1
+Type51=1
+Type52=1
+Type53=1
+Type54=1
+Type55=1
+Type56=1
+Type57=1
+Type58=1
+Type59=1
+Type60=1
+Type61=1
+Type62=1
+Type63=1
+Type64=1
+Type65=1
+Type66=1
+Type67=1
+Type68=1
+Type69=1
+Type70=1
+Type71=1
+Type72=1
+Type73=1
+Type74=1
+Type75=1
+Type76=1
+Type77=1
+Type78=1
+Type79=1
+Type80=1
+Type81=1
+Type82=1
+Type83=1
+Type84=1
+Type85=1
+Type86=1
+Type87=1
+Type88=1
+Type89=1
+Type90=1
+Type91=1
+Type92=1
+Type93=1
+Type94=1
+Type95=1
+Type96=1
+Type97=1
+Type98=1
+Type99=1
+Type100=1
+Type101=1
+Type102=1
+Type103=1
+Type104=1
+Type105=1
+Type106=1
+Type107=1
+Type108=1
+Type109=1
+Type110=1
+Type111=1
+Type112=1
+Type113=1
+Type114=1
+Type115=1
+Type116=1
+Type117=1
+Type118=1
+Type119=1
+Type120=1
+Type121=1
+Type122=1
+Type123=1
+Type124=1
+Type125=1
+Type126=1
+Type127=1
+Type128=1
+Type129=1
+Type130=1
+Type131=1
+Type132=1
+Type133=1
+Type134=1
+Type135=1
+Type136=1
+Type137=1
+Type138=1
+Type139=1
+Type140=1
+Type141=1
+Type142=1
+Type143=1
+Type144=1
+Type145=1
+Type146=1
+Type147=1
+Type148=1
+Type149=1
+Type150=1
+Type151=1
+Type152=1
+Type153=1
+Type154=1
+Type155=1
+Type156=1
+Type157=1
+Type158=1
+Type159=1
+Type160=1
+Type161=1
+
+[Difference Levels]
+Type1=1
+Type2=1
+Type3=1
+Type4=1
+Type5=1
+Type6=1
+Type7=1
+Type8=1
+Type9=1
+Type10=1
+Type11=1
+Type12=1
+Type13=1
+Type14=1
+Type15=1
+Type16=1
+Type17=1
+Type18=1
+Type19=1
+Type20=1
+Type21=1
+Type22=1
+Type23=1
+Type24=1
+Type25=1
+Type26=1
+Type27=1
+Type28=1
+Type29=1
+Type30=1
+Type31=1
+Type32=1
+Type33=1
+Type34=1
+Type35=1
+Type36=1
+Type37=1
+Type38=1
+Type39=1
+Type40=1
+Type41=1
+Type42=1
+Type43=1
+Type44=1
+Type45=1
+Type46=1
+Type47=1
+Type48=1
+Type49=1
+Type50=1
+Type51=1
+Type52=1
+Type53=1
+Type54=1
+Type55=1
+Type56=1
+Type57=1
+Type58=1
+Type59=1
+Type60=1
+Type61=1
+Type62=1
+Type63=1
+Type64=1
+Type65=1
+Type66=1
+Type67=1
+Type68=1
+Type69=1
+Type70=1
+Type71=1
+Type72=1
+Type73=1
+Type74=1
+Type75=1
+Type76=1
+Type77=1
+Type78=1
+Type79=1
+Type80=1
+Type81=1
+Type82=1
+Type83=1
+Type84=1
+Type85=1
+Type86=1
+Type87=1
+Type88=1
+
+[Electrical Rules Check]
+Type1=1
+Type2=1
+Type3=2
+Type4=1
+Type5=2
+Type6=2
+Type7=0
+Type8=1
+Type9=1
+Type10=1
+Type11=2
+Type12=2
+Type13=2
+Type14=0
+Type15=1
+Type16=1
+Type17=1
+Type18=1
+Type19=1
+Type20=0
+Type21=0
+Type22=0
+Type23=0
+Type24=1
+Type25=2
+Type26=0
+Type27=2
+Type28=1
+Type29=1
+Type30=1
+Type31=1
+Type32=2
+Type33=0
+Type34=2
+Type35=1
+Type36=2
+Type37=1
+Type38=2
+Type39=2
+Type40=2
+Type41=0
+Type42=2
+Type43=1
+Type44=0
+Type45=0
+Type46=0
+Type47=0
+Type48=0
+Type49=0
+Type50=2
+Type51=0
+Type52=0
+Type53=1
+Type54=1
+Type55=1
+Type56=2
+Type57=1
+Type58=1
+Type59=2
+Type60=0
+Type61=0
+Type62=0
+Type63=0
+Type64=0
+Type65=2
+Type66=3
+Type67=2
+Type68=2
+Type69=0
+Type70=2
+Type71=2
+Type72=2
+Type73=2
+Type74=1
+Type75=2
+Type76=1
+Type77=1
+Type78=1
+Type79=1
+Type80=2
+Type81=3
+Type82=3
+Type83=3
+Type84=3
+Type85=3
+Type86=2
+Type87=2
+Type88=2
+Type89=1
+Type90=1
+Type91=3
+Type92=3
+Type93=2
+Type94=2
+Type95=2
+Type96=2
+Type97=2
+Type98=0
+Type99=1
+Type100=2
+Type101=0
+Type102=2
+Type103=2
+Type104=1
+Type105=2
+Type106=2
+Type107=2
+Type108=2
+Type109=1
+Type110=1
+Type111=1
+Type112=1
+Type113=1
+Type114=2
+Type115=2
+Type116=2
+Type117=3
+Type118=3
+Type119=3
+MultiChannelAlternate=0
+AlternateItemFail=3
+Type122=2
+Type123=1
+Type124=0
+Type125=1
+Type126=1
+Type127=1
+Type128=2
+Type129=2
+Type130=2
+Type131=2
+Type132=2
+Type133=2
+Type134=2
+Type135=2
+Type136=2
+Type137=2
+Type138=1
+Type139=1
+Type140=1
+Type141=1
+Type142=1
+Type143=1
+Type144=1
+Type145=1
+Type146=1
+Type147=2
+Type148=2
+Type149=2
+Type150=2
+Type151=2
+Type152=1
+Type153=1
+Type154=0
+Type155=0
+Type156=0
+Type157=0
+Type158=0
+Type159=0
+Type160=0
+Type161=0
+Type162=1
+Type163=1
+Type164=1
+Type165=2
+
+[ERC Connection Matrix]
+L1=NNNNNNNNNNNWNNNWW
+L2=NNWNNNNWWWNWNWNWN
+L3=NWEENEEEENEWNEEWN
+L4=NNENNNWEENNWNENWN
+L5=NNNNNNNNNNNNNNNNN
+L6=NNENNNNEENNWNENWN
+L7=NNEWNNWEENNWNENWN
+L8=NWEENEENEEENNEENN
+L9=NWEENEEEENEWNEEWW
+L10=NWNNNNNENNEWNNEWN
+L11=NNENNNNEEENWNENWN
+L12=WWWWNWWNWWWNWWWNN
+L13=NNNNNNNNNNNWNNNWW
+L14=NWEENEEEENEWNEEWW
+L15=NNENNNNEEENWNENWW
+L16=WWWWNWWNWWWNWWWNW
+L17=WNNNNNNNWNNNWWWWN
+
+[Annotate]
+SortOrder=3
+SortLocation=0
+ReplaceSubparts=0
+MatchParameter1=Comment
+MatchStrictly1=1
+MatchParameter2=Library Reference
+MatchStrictly2=1
+PhysicalNamingFormat=$Component_$RoomName
+GlobalIndexSortOrder=3
+GlobalIndexSortLocation=0
+
+[PrjClassGen]
+CompClassManualEnabled=0
+CompClassManualRoomEnabled=0
+NetClassAutoBusEnabled=1
+NetClassAutoCompEnabled=0
+NetClassAutoNamedHarnessEnabled=0
+NetClassManualEnabled=1
+NetClassSeparateForBusSections=0
+
+[LibraryUpdateOptions]
+SelectedOnly=0
+UpdateVariants=1
+UpdateToLatestRevision=1
+PartTypes=0
+FullReplace=1
+UpdateDesignatorLock=1
+UpdatePartIDLock=1
+PreserveParameterLocations=1
+PreserveParameterVisibility=1
+DoGraphics=1
+DoParameters=1
+DoModels=1
+AddParameters=0
+RemoveParameters=0
+AddModels=1
+RemoveModels=1
+UpdateCurrentModels=1
+
+[DatabaseUpdateOptions]
+SelectedOnly=0
+UpdateVariants=1
+UpdateToLatestRevision=1
+PartTypes=0
+
+[NetInfos]
+Net1=NetName=+0.75|NetColor=$00220EEE
+Net2=NetName=+0.75 VTT|NetColor=$00330099
+Net3=NetName=+0.75 VTTREF|NetColor=$00330099
+Net4=NetName=+1.0|NetColor=$00220EEE
+Net5=NetName=+1.5|NetColor=$00220EEE
+Net6=NetName=+1.5 DDR3|NetColor=$00220EEE
+Net7=NetName=+1.8|NetColor=$00220EEE
+Net8=NetName=+1.8 FTDI|NetColor=$006E6EFF
+Net9=NetName=+1.8 FTDI_4|NetColor=$006E6EFF
+Net10=NetName=+3.3|NetColor=$00220EEE
+Net11=NetName=+3.3 EN|NetColor=$00220EEE
+Net12=NetName=+3.3 VPG|NetColor=$00220EEE
+Net13=NetName=+5 USB|NetColor=$00220EEE
+Net14=NetName=A[0..14]|NetColor=$003399FF
+Net15=NetName=A[0..14]_DM1|NetColor=$0000BE00
+Net16=NetName=A[0..14]_DM2|NetColor=$0000BE00
+Net17=NetName=A0|NetColor=$003399FF
+Net18=NetName=A0_DM1|NetColor=$0000BE00
+Net19=NetName=A0_DM2|NetColor=$0000BE00
+Net20=NetName=A1|NetColor=$003399FF
+Net21=NetName=A1_DM1|NetColor=$0000BE00
+Net22=NetName=A1_DM2|NetColor=$0000BE00
+Net23=NetName=A10|NetColor=$003399FF
+Net24=NetName=A10_DM1|NetColor=$0000BE00
+Net25=NetName=A10_DM2|NetColor=$0000BE00
+Net26=NetName=A11|NetColor=$003399FF
+Net27=NetName=A11_DM1|NetColor=$0000BE00
+Net28=NetName=A11_DM2|NetColor=$0000BE00
+Net29=NetName=A12|NetColor=$003399FF
+Net30=NetName=A12_DM1|NetColor=$0000BE00
+Net31=NetName=A12_DM2|NetColor=$0000BE00
+Net32=NetName=A13|NetColor=$00FFFF6E
+Net33=NetName=A13_DM1|NetColor=$0000BE00
+Net34=NetName=A13_DM2|NetColor=$0000BE00
+Net35=NetName=A14|NetColor=$00FFFF6E
+Net36=NetName=A14_DM1|NetColor=$0000BE00
+Net37=NetName=A14_DM2|NetColor=$0000BE00
+Net38=NetName=A15|NetColor=$00AC5DE8
+Net39=NetName=A16|NetColor=$00AC5DE8
+Net40=NetName=A18|NetColor=$006EA300
+Net41=NetName=A2|NetColor=$003399FF
+Net42=NetName=A2_DM1|NetColor=$0000BE00
+Net43=NetName=A2_DM2|NetColor=$0000BE00
+Net44=NetName=A3|NetColor=$003399FF
+Net45=NetName=A3_DM1|NetColor=$0000BE00
+Net46=NetName=A3_DM2|NetColor=$0000BE00
+Net47=NetName=A4|NetColor=$003399FF
+Net48=NetName=A4_DM1|NetColor=$0000BE00
+Net49=NetName=A4_DM2|NetColor=$0000BE00
+Net50=NetName=A5|NetColor=$003399FF
+Net51=NetName=A5_DM1|NetColor=$0000BE00
+Net52=NetName=A5_DM2|NetColor=$0000BE00
+Net53=NetName=A6|NetColor=$003399FF
+Net54=NetName=A6_DM1|NetColor=$0000BE00
+Net55=NetName=A6_DM2|NetColor=$0000BE00
+Net56=NetName=A7|NetColor=$003399FF
+Net57=NetName=A7_DM1|NetColor=$0000BE00
+Net58=NetName=A7_DM2|NetColor=$0000BE00
+Net59=NetName=A8|NetColor=$003399FF
+Net60=NetName=A8_DM1|NetColor=$0000BE00
+Net61=NetName=A8_DM2|NetColor=$0000BE00
+Net62=NetName=A9|NetColor=$003399FF
+Net63=NetName=A9_DM1|NetColor=$0000BE00
+Net64=NetName=A9_DM2|NetColor=$0000BE00
+Net65=NetName=AD[0..14]|NetColor=$003399FF
+Net66=NetName=AD[0..14]_DM1|NetColor=$003399FF
+Net67=NetName=AD[0..14]_DM2|NetColor=$003399FF
+Net68=NetName=AD0|NetColor=$003399FF
+Net69=NetName=AD0_DM1|NetColor=$003399FF
+Net70=NetName=AD0_DM2|NetColor=$003399FF
+Net71=NetName=AD1|NetColor=$003399FF
+Net72=NetName=AD1_DM1|NetColor=$003399FF
+Net73=NetName=AD1_DM2|NetColor=$003399FF
+Net74=NetName=AD10|NetColor=$003399FF
+Net75=NetName=AD10_DM1|NetColor=$003399FF
+Net76=NetName=AD10_DM2|NetColor=$003399FF
+Net77=NetName=AD11|NetColor=$003399FF
+Net78=NetName=AD11_DM1|NetColor=$003399FF
+Net79=NetName=AD11_DM2|NetColor=$003399FF
+Net80=NetName=AD12|NetColor=$003399FF
+Net81=NetName=AD12_DM1|NetColor=$003399FF
+Net82=NetName=AD12_DM2|NetColor=$003399FF
+Net83=NetName=AD13|NetColor=$003399FF
+Net84=NetName=AD13_DM1|NetColor=$003399FF
+Net85=NetName=AD13_DM2|NetColor=$003399FF
+Net86=NetName=AD14|NetColor=$003399FF
+Net87=NetName=AD14_DM1|NetColor=$003399FF
+Net88=NetName=AD14_DM2|NetColor=$003399FF
+Net89=NetName=AD2|NetColor=$003399FF
+Net90=NetName=AD2_DM1|NetColor=$003399FF
+Net91=NetName=AD2_DM2|NetColor=$003399FF
+Net92=NetName=AD3|NetColor=$003399FF
+Net93=NetName=AD3_DM1|NetColor=$003399FF
+Net94=NetName=AD3_DM2|NetColor=$003399FF
+Net95=NetName=AD4|NetColor=$003399FF
+Net96=NetName=AD4_DM1|NetColor=$003399FF
+Net97=NetName=AD4_DM2|NetColor=$003399FF
+Net98=NetName=AD5|NetColor=$003399FF
+Net99=NetName=AD5_DM1|NetColor=$003399FF
+Net100=NetName=AD5_DM2|NetColor=$003399FF
+Net101=NetName=AD6|NetColor=$003399FF
+Net102=NetName=AD6_DM1|NetColor=$003399FF
+Net103=NetName=AD6_DM2|NetColor=$003399FF
+Net104=NetName=AD7|NetColor=$003399FF
+Net105=NetName=AD7_DM1|NetColor=$003399FF
+Net106=NetName=AD7_DM2|NetColor=$003399FF
+Net107=NetName=AD8|NetColor=$003399FF
+Net108=NetName=AD8_DM1|NetColor=$003399FF
+Net109=NetName=AD8_DM2|NetColor=$003399FF
+Net110=NetName=AD9|NetColor=$003399FF
+Net111=NetName=AD9_DM1|NetColor=$003399FF
+Net112=NetName=AD9_DM2|NetColor=$003399FF
+Net113=NetName=B1|NetColor=$006724DA
+Net114=NetName=B11|NetColor=clYellow
+Net115=NetName=B12|NetColor=$00AC5DE8
+Net116=NetName=B13|NetColor=$00FFFF6E
+Net117=NetName=B14|NetColor=$00FFFF6E
+Net118=NetName=B17|NetColor=$006EA300
+Net119=NetName=B18|NetColor=$006EA300
+Net120=NetName=B2|NetColor=$006724DA
+Net121=NetName=B3|NetColor=$006724DA
+Net122=NetName=B3D[0..7]|NetColor=$00FF6E6E
+Net123=NetName=B3D0|NetColor=$00FF6E6E
+Net124=NetName=B3D1|NetColor=$00FF6E6E
+Net125=NetName=B3D2|NetColor=$00FF6E6E
+Net126=NetName=B3D3|NetColor=$00FF6E6E
+Net127=NetName=B3D4|NetColor=$00FF6E6E
+Net128=NetName=B3D5|NetColor=$00FF6E6E
+Net129=NetName=B3D6|NetColor=$00FF6E6E
+Net130=NetName=B3D7|NetColor=$00FF6E6E
+Net131=NetName=BA[0..2]|NetColor=clYellow
+Net132=NetName=BA[0..2]_DM1|NetColor=clYellow
+Net133=NetName=BA[0..2]_DM2|NetColor=clYellow
+Net134=NetName=BA0|NetColor=clYellow
+Net135=NetName=BA0_DM1|NetColor=clYellow
+Net136=NetName=BA0_DM2|NetColor=clYellow
+Net137=NetName=BA1|NetColor=clYellow
+Net138=NetName=BA1_DM1|NetColor=clYellow
+Net139=NetName=BA1_DM2|NetColor=clYellow
+Net140=NetName=BA2|NetColor=clYellow
+Net141=NetName=BA2_DM1|NetColor=clYellow
+Net142=NetName=BA2_DM2|NetColor=clYellow
+Net143=NetName=C12|NetColor=$00AC5DE8
+Net144=NetName=C14|NetColor=$00AC5DE8
+Net145=NetName=C16|NetColor=$00AC5DE8
+Net146=NetName=C17|NetColor=$00AC5DE8
+Net147=NetName=CAS#|NetColor=$006724DA
+Net148=NetName=CAS#_DM1|NetColor=$006724DA
+Net149=NetName=CAS#_DM2|NetColor=$006724DA
+Net150=NetName=CCLK|NetColor=clYellow
+Net151=NetName=CCLK_6|NetColor=clYellow
+Net152=NetName=CK_DM1_N|NetColor=$006724DA
+Net153=NetName=CK_DM1_P|NetColor=$006724DA
+Net154=NetName=CK_DM2_N|NetColor=$006724DA
+Net155=NetName=CK_DM2_P|NetColor=$006724DA
+Net156=NetName=CK_N|NetColor=$006724DA
+Net157=NetName=CK_P|NetColor=$006724DA
+Net158=NetName=CKE|NetColor=$006724DA
+Net159=NetName=CKE_DM1|NetColor=$006724DA
+Net160=NetName=CKE_DM2|NetColor=$006724DA
+Net161=NetName=CLK27M|NetColor=$0000EEFF
+Net162=NetName=CLK27M_1|NetColor=$0000EEFF
+Net163=NetName=CLK50M|NetColor=$0000EEFF
+Net164=NetName=CLK50M_1|NetColor=$0000EEFF
+Net165=NetName=CLK50M1V5|NetColor=clYellow
+Net166=NetName=CLK50M1V5_1|NetColor=clYellow
+Net167=NetName=CON_CLK_12_N|NetColor=$00AC5DE8
+Net168=NetName=CON_CLK_12_P|NetColor=$00AC5DE8
+Net169=NetName=CON_CLK_N|NetColor=$00AC5DE8
+Net170=NetName=CON_CLK_P|NetColor=$00AC5DE8
+Net171=NetName=CON_D0_12_N|NetColor=$00AC5DE8
+Net172=NetName=CON_D0_12_P|NetColor=$00AC5DE8
+Net173=NetName=CON_D0_N|NetColor=$00AC5DE8
+Net174=NetName=CON_D0_P|NetColor=$00AC5DE8
+Net175=NetName=CON_D1_12_N|NetColor=$00AC5DE8
+Net176=NetName=CON_D1_12_P|NetColor=$00AC5DE8
+Net177=NetName=CON_D1_N|NetColor=$00AC5DE8
+Net178=NetName=CON_D1_P|NetColor=$00AC5DE8
+Net179=NetName=CON_D2_12_N|NetColor=$00AC5DE8
+Net180=NetName=CON_D2_12_P|NetColor=$00AC5DE8
+Net181=NetName=CON_D2_N|NetColor=$00AC5DE8
+Net182=NetName=CON_D2_P|NetColor=$00AC5DE8
+Net183=NetName=CS#|NetColor=$006724DA
+Net184=NetName=CS#_DM1|NetColor=$006724DA
+Net185=NetName=CS#_DM2|NetColor=$006724DA
+Net186=NetName=CS/TMS|NetColor=$006EA300
+Net187=NetName=CS/TMS_4|NetColor=$006EA300
+Net188=NetName=CTS#|NetColor=$006EA300
+Net189=NetName=D14|NetColor=$00AC5DE8
+Net190=NetName=DDR ADDR.A[0..14]|NetColor=$0000BE00
+Net191=NetName=DDR ADDR.A0|NetColor=$0000BE00
+Net192=NetName=DDR ADDR.A1|NetColor=$0000BE00
+Net193=NetName=DDR ADDR.A10|NetColor=$0000BE00
+Net194=NetName=DDR ADDR.A11|NetColor=$0000BE00
+Net195=NetName=DDR ADDR.A12|NetColor=$0000BE00
+Net196=NetName=DDR ADDR.A13|NetColor=$0000BE00
+Net197=NetName=DDR ADDR.A14|NetColor=$0000BE00
+Net198=NetName=DDR ADDR.A2|NetColor=$0000BE00
+Net199=NetName=DDR ADDR.A3|NetColor=$0000BE00
+Net200=NetName=DDR ADDR.A4|NetColor=$0000BE00
+Net201=NetName=DDR ADDR.A5|NetColor=$0000BE00
+Net202=NetName=DDR ADDR.A6|NetColor=$0000BE00
+Net203=NetName=DDR ADDR.A7|NetColor=$0000BE00
+Net204=NetName=DDR ADDR.A8|NetColor=$0000BE00
+Net205=NetName=DDR ADDR.A9|NetColor=$0000BE00
+Net206=NetName=DDR BYTE0.DM|NetColor=$006EFF6E
+Net207=NetName=DDR BYTE0.DQ[0..7]|NetColor=$006EFF6E
+Net208=NetName=DDR BYTE0.DQ0|NetColor=$006EFF6E
+Net209=NetName=DDR BYTE0.DQ1|NetColor=$006EFF6E
+Net210=NetName=DDR BYTE0.DQ2|NetColor=$006EFF6E
+Net211=NetName=DDR BYTE0.DQ3|NetColor=$006EFF6E
+Net212=NetName=DDR BYTE0.DQ4|NetColor=$006EFF6E
+Net213=NetName=DDR BYTE0.DQ5|NetColor=$006EFF6E
+Net214=NetName=DDR BYTE0.DQ6|NetColor=$006EFF6E
+Net215=NetName=DDR BYTE0.DQ7|NetColor=$006EFF6E
+Net216=NetName=DDR BYTE1.DM|NetColor=$00FF6EFF
+Net217=NetName=DDR BYTE1.DQ[0..7]|NetColor=$00FF6EFF
+Net218=NetName=DDR BYTE1.DQ0|NetColor=$00FF6EFF
+Net219=NetName=DDR BYTE1.DQ1|NetColor=$00FF6EFF
+Net220=NetName=DDR BYTE1.DQ2|NetColor=$00FF6EFF
+Net221=NetName=DDR BYTE1.DQ3|NetColor=$00FF6EFF
+Net222=NetName=DDR BYTE1.DQ4|NetColor=$00FF6EFF
+Net223=NetName=DDR BYTE1.DQ5|NetColor=$00FF6EFF
+Net224=NetName=DDR BYTE1.DQ6|NetColor=$00FF6EFF
+Net225=NetName=DDR BYTE1.DQ7|NetColor=$00FF6EFF
+Net226=NetName=DDR BYTE2.DM|NetColor=$006EFF6E
+Net227=NetName=DDR BYTE2.DQ[0..7]|NetColor=$006EFF6E
+Net228=NetName=DDR BYTE2.DQ0|NetColor=$006EFF6E
+Net229=NetName=DDR BYTE2.DQ1|NetColor=$006EFF6E
+Net230=NetName=DDR BYTE2.DQ2|NetColor=$006EFF6E
+Net231=NetName=DDR BYTE2.DQ3|NetColor=$006EFF6E
+Net232=NetName=DDR BYTE2.DQ4|NetColor=$006EFF6E
+Net233=NetName=DDR BYTE2.DQ5|NetColor=$006EFF6E
+Net234=NetName=DDR BYTE2.DQ6|NetColor=$006EFF6E
+Net235=NetName=DDR BYTE2.DQ7|NetColor=$006EFF6E
+Net236=NetName=DDR BYTE3.DM|NetColor=$00FF6EFF
+Net237=NetName=DDR BYTE3.DQ[0..7]|NetColor=$00FF6EFF
+Net238=NetName=DDR BYTE3.DQ0|NetColor=$00FF6EFF
+Net239=NetName=DDR BYTE3.DQ1|NetColor=$00FF6EFF
+Net240=NetName=DDR BYTE3.DQ2|NetColor=$00FF6EFF
+Net241=NetName=DDR BYTE3.DQ3|NetColor=$00FF6EFF
+Net242=NetName=DDR BYTE3.DQ4|NetColor=$00FF6EFF
+Net243=NetName=DDR BYTE3.DQ5|NetColor=$00FF6EFF
+Net244=NetName=DDR BYTE3.DQ6|NetColor=$00FF6EFF
+Net245=NetName=DDR BYTE3.DQ7|NetColor=$00FF6EFF
+Net246=NetName=DDR CTL.CAS#|NetColor=$006724DA
+Net247=NetName=DDR CTL.CK_1_N|NetColor=$00FFFF6E
+Net248=NetName=DDR CTL.CK_1_P|NetColor=$00FFFF6E
+Net249=NetName=DDR CTL.CK_N|NetColor=$006724DA
+Net250=NetName=DDR CTL.CK_P|NetColor=$006724DA
+Net251=NetName=DDR CTL.CKE|NetColor=$006724DA
+Net252=NetName=DDR CTL.CS#|NetColor=$006724DA
+Net253=NetName=DDR CTL.ODT|NetColor=$006724DA
+Net254=NetName=DDR CTL.RAS#|NetColor=$006724DA
+Net255=NetName=DDR CTL.RESET#|NetColor=$006724DA
+Net256=NetName=DDR CTL.WE#|NetColor=$006724DA
+Net257=NetName=DDRADR.A[0..14]|NetColor=$003399FF
+Net258=NetName=DDRADR.A0|NetColor=$003399FF
+Net259=NetName=DDRADR.A1|NetColor=$003399FF
+Net260=NetName=DDRADR.A10|NetColor=$003399FF
+Net261=NetName=DDRADR.A11|NetColor=$003399FF
+Net262=NetName=DDRADR.A12|NetColor=$003399FF
+Net263=NetName=DDRADR.A13|NetColor=$003399FF
+Net264=NetName=DDRADR.A14|NetColor=$003399FF
+Net265=NetName=DDRADR.A2|NetColor=$003399FF
+Net266=NetName=DDRADR.A3|NetColor=$003399FF
+Net267=NetName=DDRADR.A4|NetColor=$003399FF
+Net268=NetName=DDRADR.A5|NetColor=$003399FF
+Net269=NetName=DDRADR.A6|NetColor=$003399FF
+Net270=NetName=DDRADR.A7|NetColor=$003399FF
+Net271=NetName=DDRADR.A8|NetColor=$003399FF
+Net272=NetName=DDRADR.A9|NetColor=$003399FF
+Net273=NetName=DDRADR.BA[0..2]|NetColor=clYellow
+Net274=NetName=DDRADR.BA0|NetColor=clYellow
+Net275=NetName=DDRADR.BA1|NetColor=clYellow
+Net276=NetName=DDRADR.BA2|NetColor=clYellow
+Net277=NetName=DDRB0.DM|NetColor=$00FFFF6E
+Net278=NetName=DDRB0.DM_1|NetColor=$00FFFF6E
+Net279=NetName=DDRB0.DQ[0..7]|NetColor=$00FFFF6E
+Net280=NetName=DDRB0.DQ0|NetColor=$00FFFF6E
+Net281=NetName=DDRB0.DQ1|NetColor=$00FFFF6E
+Net282=NetName=DDRB0.DQ2|NetColor=$00FFFF6E
+Net283=NetName=DDRB0.DQ3|NetColor=$00FFFF6E
+Net284=NetName=DDRB0.DQ4|NetColor=$00FFFF6E
+Net285=NetName=DDRB0.DQ5|NetColor=$00FFFF6E
+Net286=NetName=DDRB0.DQ6|NetColor=$00FFFF6E
+Net287=NetName=DDRB0.DQ7|NetColor=$00FFFF6E
+Net288=NetName=DDRB0.DQS_1_N|NetColor=$00FFFF6E
+Net289=NetName=DDRB0.DQS_1_P|NetColor=$00FFFF6E
+Net290=NetName=DDRB0.DQS_N|NetColor=$00FFFF6E
+Net291=NetName=DDRB0.DQS_P|NetColor=$00FFFF6E
+Net292=NetName=DDRB1.DM|NetColor=$006EFF6E
+Net293=NetName=DDRB1.DM_1|NetColor=$006EFF6E
+Net294=NetName=DDRB1.DQ[0..7]|NetColor=$006EFF6E
+Net295=NetName=DDRB1.DQ0|NetColor=$006EFF6E
+Net296=NetName=DDRB1.DQ1|NetColor=$006EFF6E
+Net297=NetName=DDRB1.DQ2|NetColor=$006EFF6E
+Net298=NetName=DDRB1.DQ3|NetColor=$006EFF6E
+Net299=NetName=DDRB1.DQ4|NetColor=$006EFF6E
+Net300=NetName=DDRB1.DQ5|NetColor=$006EFF6E
+Net301=NetName=DDRB1.DQ6|NetColor=$006EFF6E
+Net302=NetName=DDRB1.DQ7|NetColor=$006EFF6E
+Net303=NetName=DDRB1.DQS_1_N|NetColor=$006EFF6E
+Net304=NetName=DDRB1.DQS_1_P|NetColor=$006EFF6E
+Net305=NetName=DDRB1.DQS_N|NetColor=$006EFF6E
+Net306=NetName=DDRB1.DQS_P|NetColor=$006EFF6E
+Net307=NetName=DDRB2.DM|NetColor=$00FF6EFF
+Net308=NetName=DDRB2.DM_1|NetColor=$00FF6EFF
+Net309=NetName=DDRB2.DQ[0..7]|NetColor=$00FF6EFF
+Net310=NetName=DDRB2.DQ0|NetColor=$00FF6EFF
+Net311=NetName=DDRB2.DQ1|NetColor=$00FF6EFF
+Net312=NetName=DDRB2.DQ2|NetColor=$00FF6EFF
+Net313=NetName=DDRB2.DQ3|NetColor=$00FF6EFF
+Net314=NetName=DDRB2.DQ4|NetColor=$00FF6EFF
+Net315=NetName=DDRB2.DQ5|NetColor=$00FF6EFF
+Net316=NetName=DDRB2.DQ6|NetColor=$00FF6EFF
+Net317=NetName=DDRB2.DQ7|NetColor=$00FF6EFF
+Net318=NetName=DDRB2.DQS_1_N|NetColor=$00FF6EFF
+Net319=NetName=DDRB2.DQS_1_P|NetColor=$00FF6EFF
+Net320=NetName=DDRB2.DQS_N|NetColor=$00FF6EFF
+Net321=NetName=DDRB2.DQS_P|NetColor=$00FF6EFF
+Net322=NetName=DDRB3.DM|NetColor=$00FF6E6E
+Net323=NetName=DDRB3.DM_1|NetColor=$00FF6E6E
+Net324=NetName=DDRB3.DQ[0..7]|NetColor=$00FF6E6E
+Net325=NetName=DDRB3.DQ0|NetColor=$00FF6E6E
+Net326=NetName=DDRB3.DQ1|NetColor=$00FF6E6E
+Net327=NetName=DDRB3.DQ2|NetColor=$00FF6E6E
+Net328=NetName=DDRB3.DQ3|NetColor=$00FF6E6E
+Net329=NetName=DDRB3.DQ4|NetColor=$00FF6E6E
+Net330=NetName=DDRB3.DQ5|NetColor=$00FF6E6E
+Net331=NetName=DDRB3.DQ6|NetColor=$00FF6E6E
+Net332=NetName=DDRB3.DQ7|NetColor=$00FF6E6E
+Net333=NetName=DDRB3.DQS_1_N|NetColor=$00FF6E6E
+Net334=NetName=DDRB3.DQS_1_P|NetColor=$00FF6E6E
+Net335=NetName=DDRB3.DQS_N|NetColor=$00FF6E6E
+Net336=NetName=DDRB3.DQS_P|NetColor=$00FF6E6E
+Net337=NetName=DDRCTL.CAS#|NetColor=$006724DA
+Net338=NetName=DDRCTL.CAS#_1|NetColor=$006724DA
+Net339=NetName=DDRCTL.CK_1_N|NetColor=$006724DA
+Net340=NetName=DDRCTL.CK_1_P|NetColor=$006724DA
+Net341=NetName=DDRCTL.CK_N|NetColor=$006724DA
+Net342=NetName=DDRCTL.CK_P|NetColor=$006724DA
+Net343=NetName=DDRCTL.CKE|NetColor=$006724DA
+Net344=NetName=DDRCTL.CKE_1|NetColor=$006724DA
+Net345=NetName=DDRCTL.CS#|NetColor=$006724DA
+Net346=NetName=DDRCTL.CS#_1|NetColor=$006724DA
+Net347=NetName=DDRCTL.ODT|NetColor=$006724DA
+Net348=NetName=DDRCTL.ODT_1|NetColor=$006724DA
+Net349=NetName=DDRCTL.RAS#|NetColor=$006724DA
+Net350=NetName=DDRCTL.RAS#_1|NetColor=$006724DA
+Net351=NetName=DDRCTL.RESET#|NetColor=$006724DA
+Net352=NetName=DDRCTL.RESET#_1|NetColor=$006724DA
+Net353=NetName=DDRCTL.WE#|NetColor=$006724DA
+Net354=NetName=DDRCTL.WE#_1|NetColor=$006724DA
+Net355=NetName=DI/TDO|NetColor=$006EA300
+Net356=NetName=DI/TDO_4|NetColor=$006EA300
+Net357=NetName=DO|NetColor=$00FFFF6E
+Net358=NetName=DO/TDI|NetColor=$006EA300
+Net359=NetName=DO/TDI_4|NetColor=$006EA300
+Net360=NetName=DO_4|NetColor=$00FFFF6E
+Net361=NetName=DONE|NetColor=$006EA300
+Net362=NetName=DONE_6|NetColor=$006EA300
+Net363=NetName=EECLK|NetColor=clYellow
+Net364=NetName=EECLK_4|NetColor=clYellow
+Net365=NetName=EECS|NetColor=$00FFFF6E
+Net366=NetName=EECS_4|NetColor=$00FFFF6E
+Net367=NetName=EEDATA|NetColor=$00FFFF6E
+Net368=NetName=EEDATA_4|NetColor=$00FFFF6E
+Net369=NetName=F4|NetColor=clYellow
+Net370=NetName=G2|NetColor=$006724DA
+Net371=NetName=GND|NetColor=$00606060
+Net372=NetName=GPIO[0..63]|NetColor=$00FFFF6E
+Net373=NetName=GPIO0|NetColor=$00FFFF6E
+Net374=NetName=GPIO1|NetColor=$00FFFF6E
+Net375=NetName=GPIO10|NetColor=$00FFFF6E
+Net376=NetName=GPIO11|NetColor=$00FFFF6E
+Net377=NetName=GPIO12|NetColor=$00FFFF6E
+Net378=NetName=GPIO13|NetColor=$00FFFF6E
+Net379=NetName=GPIO14|NetColor=$00FFFF6E
+Net380=NetName=GPIO15|NetColor=$00FFFF6E
+Net381=NetName=GPIO16|NetColor=$00FFFF6E
+Net382=NetName=GPIO17|NetColor=$00FFFF6E
+Net383=NetName=GPIO18|NetColor=$00FFFF6E
+Net384=NetName=GPIO19|NetColor=$00FFFF6E
+Net385=NetName=GPIO2|NetColor=$00FFFF6E
+Net386=NetName=GPIO20|NetColor=$00FFFF6E
+Net387=NetName=GPIO21|NetColor=$00FFFF6E
+Net388=NetName=GPIO22|NetColor=$00FFFF6E
+Net389=NetName=GPIO23|NetColor=$00FFFF6E
+Net390=NetName=GPIO24|NetColor=$00FFFF6E
+Net391=NetName=GPIO25|NetColor=$00FFFF6E
+Net392=NetName=GPIO26|NetColor=$00FFFF6E
+Net393=NetName=GPIO27|NetColor=$00FFFF6E
+Net394=NetName=GPIO28|NetColor=$00FFFF6E
+Net395=NetName=GPIO29|NetColor=$00FFFF6E
+Net396=NetName=GPIO3|NetColor=$00FFFF6E
+Net397=NetName=GPIO30|NetColor=$00FFFF6E
+Net398=NetName=GPIO31|NetColor=$00FFFF6E
+Net399=NetName=GPIO32|NetColor=$00FFFF6E
+Net400=NetName=GPIO33|NetColor=$00FFFF6E
+Net401=NetName=GPIO34|NetColor=$00FFFF6E
+Net402=NetName=GPIO35|NetColor=$00FFFF6E
+Net403=NetName=GPIO36|NetColor=$00FFFF6E
+Net404=NetName=GPIO37|NetColor=$00FFFF6E
+Net405=NetName=GPIO38|NetColor=$00FFFF6E
+Net406=NetName=GPIO39|NetColor=$00FFFF6E
+Net407=NetName=GPIO4|NetColor=$00FFFF6E
+Net408=NetName=GPIO40|NetColor=$00FFFF6E
+Net409=NetName=GPIO41|NetColor=$00FFFF6E
+Net410=NetName=GPIO42|NetColor=$00FFFF6E
+Net411=NetName=GPIO43|NetColor=$00FFFF6E
+Net412=NetName=GPIO44|NetColor=$00FFFF6E
+Net413=NetName=GPIO45|NetColor=$00FFFF6E
+Net414=NetName=GPIO46|NetColor=$00FFFF6E
+Net415=NetName=GPIO47|NetColor=$00FFFF6E
+Net416=NetName=GPIO48|NetColor=$00FFFF6E
+Net417=NetName=GPIO49|NetColor=$00FFFF6E
+Net418=NetName=GPIO5|NetColor=$00FFFF6E
+Net419=NetName=GPIO50|NetColor=$00FFFF6E
+Net420=NetName=GPIO51|NetColor=$00FFFF6E
+Net421=NetName=GPIO52|NetColor=$00FFFF6E
+Net422=NetName=GPIO53|NetColor=$00FFFF6E
+Net423=NetName=GPIO54|NetColor=$00FFFF6E
+Net424=NetName=GPIO55|NetColor=$00FFFF6E
+Net425=NetName=GPIO56|NetColor=$00FFFF6E
+Net426=NetName=GPIO57|NetColor=$00FFFF6E
+Net427=NetName=GPIO58|NetColor=$00FFFF6E
+Net428=NetName=GPIO59|NetColor=$00FFFF6E
+Net429=NetName=GPIO6|NetColor=$00FFFF6E
+Net430=NetName=GPIO60|NetColor=$00FFFF6E
+Net431=NetName=GPIO61|NetColor=$00FFFF6E
+Net432=NetName=GPIO62|NetColor=$00FFFF6E
+Net433=NetName=GPIO63|NetColor=$00FFFF6E
+Net434=NetName=GPIO7|NetColor=$00FFFF6E
+Net435=NetName=GPIO8|NetColor=$00FFFF6E
+Net436=NetName=GPIO9|NetColor=$00FFFF6E
+Net437=NetName=H16|NetColor=$0000EEFF
+Net438=NetName=H2|NetColor=$006724DA
+Net439=NetName=HDMI.CLK_1_N|NetColor=$00AC5DE8
+Net440=NetName=HDMI.CLK_1_P|NetColor=$00AC5DE8
+Net441=NetName=HDMI.CLK_N|NetColor=$00AC5DE8
+Net442=NetName=HDMI.CLK_P|NetColor=$00AC5DE8
+Net443=NetName=HDMI.D0_1_N|NetColor=$00AC5DE8
+Net444=NetName=HDMI.D0_1_P|NetColor=$00AC5DE8
+Net445=NetName=HDMI.D0_N|NetColor=$00AC5DE8
+Net446=NetName=HDMI.D0_P|NetColor=$00AC5DE8
+Net447=NetName=HDMI.D1_1_N|NetColor=$00AC5DE8
+Net448=NetName=HDMI.D1_1_P|NetColor=$00AC5DE8
+Net449=NetName=HDMI.D1_N|NetColor=$00AC5DE8
+Net450=NetName=HDMI.D1_P|NetColor=$00AC5DE8
+Net451=NetName=HDMI.D2_1_N|NetColor=$00AC5DE8
+Net452=NetName=HDMI.D2_1_P|NetColor=$00AC5DE8
+Net453=NetName=HDMI.D2_N|NetColor=$00AC5DE8
+Net454=NetName=HDMI.D2_P|NetColor=$00AC5DE8
+Net455=NetName=HDR_TCK|NetColor=$006EA300
+Net456=NetName=HDR_TCK_6|NetColor=$006EA300
+Net457=NetName=HDR_TDI|NetColor=$006EA300
+Net458=NetName=HDR_TDI_6|NetColor=$006EA300
+Net459=NetName=HDR_TDO|NetColor=$006EA300
+Net460=NetName=HDR_TDO_6|NetColor=$006EA300
+Net461=NetName=HDR_TMS|NetColor=$006EA300
+Net462=NetName=HDR_TMS_6|NetColor=$006EA300
+Net463=NetName=INIT#|NetColor=$006EA300
+Net464=NetName=INIT#_6|NetColor=$006EA300
+Net465=NetName=JTAG.TCK|NetColor=$006EA300
+Net466=NetName=JTAG.TCK_1|NetColor=$006EA300
+Net467=NetName=JTAG.TDI|NetColor=$006EA300
+Net468=NetName=JTAG.TDI_1|NetColor=$006EA300
+Net469=NetName=JTAG.TDO|NetColor=$006EA300
+Net470=NetName=JTAG.TDO_1|NetColor=$006EA300
+Net471=NetName=JTAG.TMS|NetColor=$006EA300
+Net472=NetName=JTAG.TMS_1|NetColor=$006EA300
+Net473=NetName=K1|NetColor=$006724DA
+Net474=NetName=K2|NetColor=$006724DA
+Net475=NetName=LDM|NetColor=$00FF6E6E
+Net476=NetName=LDM_DM1|NetColor=$006EFF6E
+Net477=NetName=LDM_DM2|NetColor=$00FF6E6E
+Net478=NetName=LDQ[0..7]|NetColor=$00FF6E6E
+Net479=NetName=LDQ[0..7]_DM1|NetColor=$006EFF6E
+Net480=NetName=LDQ[0..7]_DM2|NetColor=$00FF6E6E
+Net481=NetName=LDQ0|NetColor=$00FF6E6E
+Net482=NetName=LDQ0_DM1|NetColor=$006EFF6E
+Net483=NetName=LDQ0_DM2|NetColor=$00FF6E6E
+Net484=NetName=LDQ1|NetColor=$00FF6E6E
+Net485=NetName=LDQ1_DM1|NetColor=$006EFF6E
+Net486=NetName=LDQ1_DM2|NetColor=$00FF6E6E
+Net487=NetName=LDQ2|NetColor=$00FF6E6E
+Net488=NetName=LDQ2_DM1|NetColor=$006EFF6E
+Net489=NetName=LDQ2_DM2|NetColor=$00FF6E6E
+Net490=NetName=LDQ3|NetColor=$00FF6E6E
+Net491=NetName=LDQ3_DM1|NetColor=$006EFF6E
+Net492=NetName=LDQ3_DM2|NetColor=$00FF6E6E
+Net493=NetName=LDQ4|NetColor=$00FF6E6E
+Net494=NetName=LDQ4_DM1|NetColor=$006EFF6E
+Net495=NetName=LDQ4_DM2|NetColor=$00FF6E6E
+Net496=NetName=LDQ5|NetColor=$00FF6E6E
+Net497=NetName=LDQ5_DM1|NetColor=$006EFF6E
+Net498=NetName=LDQ5_DM2|NetColor=$00FF6E6E
+Net499=NetName=LDQ6|NetColor=$00FF6E6E
+Net500=NetName=LDQ6_DM1|NetColor=$006EFF6E
+Net501=NetName=LDQ6_DM2|NetColor=$00FF6E6E
+Net502=NetName=LDQ7|NetColor=$00FF6E6E
+Net503=NetName=LDQ7_DM1|NetColor=$006EFF6E
+Net504=NetName=LDQ7_DM2|NetColor=$00FF6E6E
+Net505=NetName=LDQS_DM1_N|NetColor=$006EFF6E
+Net506=NetName=LDQS_DM1_P|NetColor=$006EFF6E
+Net507=NetName=LDQS_DM2_N|NetColor=$00FF6E6E
+Net508=NetName=LDQS_DM2_P|NetColor=$00FF6E6E
+Net509=NetName=LDQS_N|NetColor=$00FF6E6E
+Net510=NetName=LDQS_P|NetColor=$00FF6E6E
+Net511=NetName=M0|NetColor=$006EA300
+Net512=NetName=M0_6|NetColor=$006EA300
+Net513=NetName=M1|NetColor=$006EA300
+Net514=NetName=M1_6|NetColor=$006EA300
+Net515=NetName=M2|NetColor=$006EA300
+Net516=NetName=M2_6|NetColor=$006EA300
+Net517=NetName=N1|NetColor=$00FFFF6E
+Net518=NetName=N2|NetColor=$00FFFF6E
+Net519=NetName=ODT|NetColor=$006724DA
+Net520=NetName=ODT_DM1|NetColor=$006724DA
+Net521=NetName=ODT_DM2|NetColor=$006724DA
+Net522=NetName=OSCI|NetColor=$006EFF6E
+Net523=NetName=OSCI_4|NetColor=$006EFF6E
+Net524=NetName=OSCO|NetColor=$006EFF6E
+Net525=NetName=OSCO_4|NetColor=$006EFF6E
+Net526=NetName=P17|NetColor=$0000EEFF
+Net527=NetName=P2|NetColor=$006EFF6E
+Net528=NetName=PROGRAM#|NetColor=$006EA300
+Net529=NetName=PROGRAM#_6|NetColor=$006EA300
+Net530=NetName=QSPI.CS#|NetColor=$00FFFF6E
+Net531=NetName=QSPI.CS#_1|NetColor=$00FFFF6E
+Net532=NetName=QSPI.DQ0|NetColor=$00FFFF6E
+Net533=NetName=QSPI.DQ0_1|NetColor=$00FFFF6E
+Net534=NetName=QSPI.DQ1|NetColor=$00FFFF6E
+Net535=NetName=QSPI.DQ1_1|NetColor=$00FFFF6E
+Net536=NetName=QSPI.DQ2|NetColor=$00FFFF6E
+Net537=NetName=QSPI.DQ2_1|NetColor=$00FFFF6E
+Net538=NetName=QSPI.DQ3|NetColor=$00FFFF6E
+Net539=NetName=QSPI.DQ3_1|NetColor=$00FFFF6E
+Net540=NetName=R2|NetColor=$006EFF6E
+Net541=NetName=R6|NetColor=$00FF6E6E
+Net542=NetName=RAMBYTE0.DM|NetColor=$006EFF6E
+Net543=NetName=RAMBYTE0.DM_1|NetColor=$006EFF6E
+Net544=NetName=RAMBYTE0.DQ[0..7]|NetColor=$006EFF6E
+Net545=NetName=RAMBYTE0.DQ0|NetColor=$006EFF6E
+Net546=NetName=RAMBYTE0.DQ1|NetColor=$006EFF6E
+Net547=NetName=RAMBYTE0.DQ2|NetColor=$006EFF6E
+Net548=NetName=RAMBYTE0.DQ3|NetColor=$006EFF6E
+Net549=NetName=RAMBYTE0.DQ4|NetColor=$006EFF6E
+Net550=NetName=RAMBYTE0.DQ5|NetColor=$006EFF6E
+Net551=NetName=RAMBYTE0.DQ6|NetColor=$006EFF6E
+Net552=NetName=RAMBYTE0.DQ7|NetColor=$006EFF6E
+Net553=NetName=RAMBYTE0.DQS|NetColor=$006EFF6E
+Net554=NetName=RAMBYTE0.DQS#|NetColor=$006EFF6E
+Net555=NetName=RAMBYTE0.DQS#_1|NetColor=$006EFF6E
+Net556=NetName=RAMBYTE0.DQS_1|NetColor=$006EFF6E
+Net557=NetName=RAMBYTE0.DQS_1_N|NetColor=$006EFF6E
+Net558=NetName=RAMBYTE0.DQS_1_P|NetColor=$006EFF6E
+Net559=NetName=RAMBYTE0.DQS_N|NetColor=$006EFF6E
+Net560=NetName=RAMBYTE0.DQS_P|NetColor=$006EFF6E
+Net561=NetName=RAMBYTE1.DM|NetColor=$00FF6EFF
+Net562=NetName=RAMBYTE1.DM_1|NetColor=$00FF6EFF
+Net563=NetName=RAMBYTE1.DQ[0..7]|NetColor=$00FF6EFF
+Net564=NetName=RAMBYTE1.DQ0|NetColor=$00FF6EFF
+Net565=NetName=RAMBYTE1.DQ1|NetColor=$00FF6EFF
+Net566=NetName=RAMBYTE1.DQ2|NetColor=$00FF6EFF
+Net567=NetName=RAMBYTE1.DQ3|NetColor=$00FF6EFF
+Net568=NetName=RAMBYTE1.DQ4|NetColor=$00FF6EFF
+Net569=NetName=RAMBYTE1.DQ5|NetColor=$00FF6EFF
+Net570=NetName=RAMBYTE1.DQ6|NetColor=$00FF6EFF
+Net571=NetName=RAMBYTE1.DQ7|NetColor=$00FF6EFF
+Net572=NetName=RAMBYTE1.DQS|NetColor=$00FF6EFF
+Net573=NetName=RAMBYTE1.DQS#|NetColor=$00FF6EFF
+Net574=NetName=RAMBYTE1.DQS#_1|NetColor=$00FF6EFF
+Net575=NetName=RAMBYTE1.DQS_1|NetColor=$00FF6EFF
+Net576=NetName=RAMBYTE1.DQS_1_N|NetColor=$00FF6EFF
+Net577=NetName=RAMBYTE1.DQS_1_P|NetColor=$00FF6EFF
+Net578=NetName=RAMBYTE1.DQS_N|NetColor=$00FF6EFF
+Net579=NetName=RAMBYTE1.DQS_P|NetColor=$00FF6EFF
+Net580=NetName=RAMBYTE2.DM|NetColor=$006EFF6E
+Net581=NetName=RAMBYTE2.DM_1|NetColor=$006EFF6E
+Net582=NetName=RAMBYTE2.DQ[0..7]|NetColor=$006EFF6E
+Net583=NetName=RAMBYTE2.DQ0|NetColor=$006EFF6E
+Net584=NetName=RAMBYTE2.DQ1|NetColor=$006EFF6E
+Net585=NetName=RAMBYTE2.DQ2|NetColor=$006EFF6E
+Net586=NetName=RAMBYTE2.DQ3|NetColor=$006EFF6E
+Net587=NetName=RAMBYTE2.DQ4|NetColor=$006EFF6E
+Net588=NetName=RAMBYTE2.DQ5|NetColor=$006EFF6E
+Net589=NetName=RAMBYTE2.DQ6|NetColor=$006EFF6E
+Net590=NetName=RAMBYTE2.DQ7|NetColor=$006EFF6E
+Net591=NetName=RAMBYTE2.DQS|NetColor=$006EFF6E
+Net592=NetName=RAMBYTE2.DQS#|NetColor=$006EFF6E
+Net593=NetName=RAMBYTE2.DQS#_1|NetColor=$006EFF6E
+Net594=NetName=RAMBYTE2.DQS_1|NetColor=$006EFF6E
+Net595=NetName=RAMBYTE2.DQS_1_N|NetColor=$006EFF6E
+Net596=NetName=RAMBYTE2.DQS_1_P|NetColor=$006EFF6E
+Net597=NetName=RAMBYTE2.DQS_N|NetColor=$006EFF6E
+Net598=NetName=RAMBYTE2.DQS_P|NetColor=$006EFF6E
+Net599=NetName=RAMBYTE3.DM|NetColor=$00FF6EFF
+Net600=NetName=RAMBYTE3.DM_1|NetColor=$00FF6EFF
+Net601=NetName=RAMBYTE3.DQ[0..7]|NetColor=$00FF6EFF
+Net602=NetName=RAMBYTE3.DQ0|NetColor=$00FF6EFF
+Net603=NetName=RAMBYTE3.DQ1|NetColor=$00FF6EFF
+Net604=NetName=RAMBYTE3.DQ2|NetColor=$00FF6EFF
+Net605=NetName=RAMBYTE3.DQ3|NetColor=$00FF6EFF
+Net606=NetName=RAMBYTE3.DQ4|NetColor=$00FF6EFF
+Net607=NetName=RAMBYTE3.DQ5|NetColor=$00FF6EFF
+Net608=NetName=RAMBYTE3.DQ6|NetColor=$00FF6EFF
+Net609=NetName=RAMBYTE3.DQ7|NetColor=$00FF6EFF
+Net610=NetName=RAMBYTE3.DQS|NetColor=$00FF6EFF
+Net611=NetName=RAMBYTE3.DQS#|NetColor=$00FF6EFF
+Net612=NetName=RAMBYTE3.DQS#_1|NetColor=$00FF6EFF
+Net613=NetName=RAMBYTE3.DQS_1|NetColor=$00FF6EFF
+Net614=NetName=RAMBYTE3.DQS_1_N|NetColor=$00FF6EFF
+Net615=NetName=RAMBYTE3.DQS_1_P|NetColor=$00FF6EFF
+Net616=NetName=RAMBYTE3.DQS_N|NetColor=$00FF6EFF
+Net617=NetName=RAMBYTE3.DQS_P|NetColor=$00FF6EFF
+Net618=NetName=RAS#|NetColor=$006724DA
+Net619=NetName=RAS#_DM1|NetColor=$006724DA
+Net620=NetName=RAS#_DM2|NetColor=$006724DA
+Net621=NetName=RESET#|NetColor=$006724DA
+Net622=NetName=RESET#_DM1|NetColor=$006724DA
+Net623=NetName=RESET#_DM2|NetColor=$006724DA
+Net624=NetName=RGB_DAT|NetColor=clYellow
+Net625=NetName=RGB_DAT_1|NetColor=clYellow
+Net626=NetName=RTS#|NetColor=$006EA300
+Net627=NetName=RXD|NetColor=$006EA300
+Net628=NetName=RXLED|NetColor=$006EA300
+Net629=NetName=RXLED_4|NetColor=$006EA300
+Net630=NetName=SCK|NetColor=clYellow
+Net631=NetName=SCK_6|NetColor=clYellow
+Net632=NetName=SK/TCK|NetColor=$006EA300
+Net633=NetName=SK/TCK_4|NetColor=$006EA300
+Net634=NetName=SPI.CS#|NetColor=$006EFF6E
+Net635=NetName=SPI.DQ0|NetColor=$00FFFF6E
+Net636=NetName=SPI.DQ1|NetColor=$00FFFF6E
+Net637=NetName=SPI.DQ2|NetColor=$00FFFF6E
+Net638=NetName=SPI.DQ3|NetColor=$00FFFF6E
+Net639=NetName=SW|NetColor=$00FFFF6E
+Net640=NetName=SW_BC1|NetColor=$00FFFF6E
+Net641=NetName=SW_BC2|NetColor=$00FFFF6E
+Net642=NetName=SW_BC3|NetColor=$00FFFF6E
+Net643=NetName=SW_BC4|NetColor=$00FFFF6E
+Net644=NetName=TXD|NetColor=$006EA300
+Net645=NetName=TXLED|NetColor=$006EA300
+Net646=NetName=TXLED_4|NetColor=$006EA300
+Net647=NetName=U2|NetColor=$00FF6EFF
+Net648=NetName=U9|NetColor=$00FF6E6E
+Net649=NetName=UART.CTS#|NetColor=$006EA300
+Net650=NetName=UART.CTS#_1|NetColor=$006EA300
+Net651=NetName=UART.RTS#|NetColor=$006EA300
+Net652=NetName=UART.RTS#_1|NetColor=$006EA300
+Net653=NetName=UART.RX|NetColor=$006EA300
+Net654=NetName=UART.RX_1|NetColor=$006EA300
+Net655=NetName=UART.RXD|NetColor=$006EA300
+Net656=NetName=UART.RXD_1|NetColor=$006EA300
+Net657=NetName=UART.TX|NetColor=$006EA300
+Net658=NetName=UART.TX_1|NetColor=$006EA300
+Net659=NetName=UART.TXD|NetColor=$006EA300
+Net660=NetName=UART.TXD_1|NetColor=$006EA300
+Net661=NetName=UDM|NetColor=$00FFFF6E
+Net662=NetName=UDM_DM1|NetColor=$00FFFF6E
+Net663=NetName=UDM_DM2|NetColor=$00FF6EFF
+Net664=NetName=UDQ[0..7]|NetColor=$00FFFF6E
+Net665=NetName=UDQ[0..7]_DM1|NetColor=$00FFFF6E
+Net666=NetName=UDQ[0..7]_DM2|NetColor=$00FF6EFF
+Net667=NetName=UDQ0|NetColor=$00FFFF6E
+Net668=NetName=UDQ0_DM1|NetColor=$00FFFF6E
+Net669=NetName=UDQ0_DM2|NetColor=$00FF6EFF
+Net670=NetName=UDQ1|NetColor=$00FFFF6E
+Net671=NetName=UDQ1_DM1|NetColor=$00FFFF6E
+Net672=NetName=UDQ1_DM2|NetColor=$00FF6EFF
+Net673=NetName=UDQ2|NetColor=$00FFFF6E
+Net674=NetName=UDQ2_DM1|NetColor=$00FFFF6E
+Net675=NetName=UDQ2_DM2|NetColor=$00FF6EFF
+Net676=NetName=UDQ3|NetColor=$00FFFF6E
+Net677=NetName=UDQ3_DM1|NetColor=$00FFFF6E
+Net678=NetName=UDQ3_DM2|NetColor=$00FF6EFF
+Net679=NetName=UDQ4|NetColor=$00FFFF6E
+Net680=NetName=UDQ4_DM1|NetColor=$00FFFF6E
+Net681=NetName=UDQ4_DM2|NetColor=$00FF6EFF
+Net682=NetName=UDQ5|NetColor=$00FFFF6E
+Net683=NetName=UDQ5_DM1|NetColor=$00FFFF6E
+Net684=NetName=UDQ5_DM2|NetColor=$00FF6EFF
+Net685=NetName=UDQ6|NetColor=$00FFFF6E
+Net686=NetName=UDQ6_DM1|NetColor=$00FFFF6E
+Net687=NetName=UDQ6_DM2|NetColor=$00FF6EFF
+Net688=NetName=UDQ7|NetColor=$00FFFF6E
+Net689=NetName=UDQ7_DM1|NetColor=$00FFFF6E
+Net690=NetName=UDQ7_DM2|NetColor=$00FF6EFF
+Net691=NetName=UDQS_DM1_N|NetColor=$00FFFF6E
+Net692=NetName=UDQS_DM1_P|NetColor=$00FFFF6E
+Net693=NetName=UDQS_DM2_N|NetColor=$00FF6EFF
+Net694=NetName=UDQS_DM2_P|NetColor=$00FF6EFF
+Net695=NetName=UDQS_N|NetColor=$00FFFF6E
+Net696=NetName=UDQS_P|NetColor=$00FFFF6E
+Net697=NetName=USBD_4_N|NetColor=$006EFF6E
+Net698=NetName=USBD_4_P|NetColor=$006EFF6E
+Net699=NetName=USBD_N|NetColor=$006EFF6E
+Net700=NetName=USBD_P|NetColor=$006EFF6E
+Net701=NetName=V2|NetColor=$00FF6EFF
+Net702=NetName=V9|NetColor=$00FF6E6E
+Net703=NetName=VIN|NetColor=$00220EEE
+Net704=NetName=VIN_BC1|NetColor=$00220EEE
+Net705=NetName=VIN_BC2|NetColor=$00220EEE
+Net706=NetName=VIN_BC3|NetColor=$00220EEE
+Net707=NetName=VIN_BC4|NetColor=$00220EEE
+Net708=NetName=VOUT|NetColor=$00220EEE
+Net709=NetName=VOUT_BC1|NetColor=$00220EEE
+Net710=NetName=VOUT_BC2|NetColor=$00220EEE
+Net711=NetName=VOUT_BC3|NetColor=$00220EEE
+Net712=NetName=VOUT_BC4|NetColor=$00220EEE
+Net713=NetName=VPG|NetColor=$00220EEE
+Net714=NetName=VPG_BC1|NetColor=$00220EEE
+Net715=NetName=VPG_BC2|NetColor=$00220EEE
+Net716=NetName=VPG_BC3|NetColor=$00220EEE
+Net717=NetName=VPG_BC4|NetColor=$00220EEE
+Net718=NetName=VPHY|NetColor=$006E6EFF
+Net719=NetName=VPHY_4|NetColor=$006E6EFF
+Net720=NetName=VPLL|NetColor=$006E6EFF
+Net721=NetName=VPLL_4|NetColor=$006E6EFF
+Net722=NetName=WE#|NetColor=$006724DA
+Net723=NetName=WE#_DM1|NetColor=$006724DA
+Net724=NetName=WE#_DM2|NetColor=$006724DA
+
+[Comparison Options]
+ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
+ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
+ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
+ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
+ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|UseName=0|InclAllRules=0
+ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
+
+[SmartPDF]
+PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+
